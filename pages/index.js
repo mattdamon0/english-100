@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import idiomsData from '../../data/toefl_idioms_150_with_korean.json';
+import idiomsData from '../data/toefl_idioms_150_with_korean.json';
 
 export default function IdiomQuiz() {
   const [questions, setQuestions] = useState([]);
