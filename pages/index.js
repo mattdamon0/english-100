@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import idioms from '../data/toefl_idioms_150_with_korean_clean.json';
+import idioms from '../data/toefl_idioms_150_with_korean.json';
 
 function getRandomIdioms(data, count) {
   const shuffled = [...data].sort(() => 0.5 - Math.random());
@@ -29,13 +29,22 @@ export default function Home() {
         correct: current.correct,
         meaning: current.meaning,
         meaning_ko: current.meaning_ko,
-        example_sentence: current.example_sentence
+        example: current.example_sentence,
       }
     ]);
     setSelected(null);
     setShowHint(false);
     setShowExample(false);
     setIndex(index + 1);
+  };
+
+  const handleBack = () => {
+    if (index > 0) {
+      setIndex(index - 1);
+      setSelected(null);
+      setShowHint(false);
+      setShowExample(false);
+    }
   };
 
   if (questions.length === 0) return <p>Loading...</p>;
@@ -53,83 +62,43 @@ export default function Home() {
   const current = questions[index];
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px', maxWidth: '600px', margin: 'auto' }}>
       <h2>{index + 1}. {current.idiom}</h2>
-      {Array.isArray(current.options) &&
-        current.options.map((opt, i) => (
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '10px',
+        marginBottom: '20px'
+      }}>
+        {current.options && current.options.map((opt, i) => (
           <button
             key={i}
             onClick={() => setSelected(i)}
             style={{
-              display: 'block',
-              margin: '10px auto',
               padding: '10px',
-              backgroundColor: selected === i ? '#0070f3' : '#eee',
-              color: selected === i ? '#ffffff' : '#000000',
-              border: 'none',
-              borderRadius: '5px',
               fontSize: '14px',
-              cursor: 'pointer'
+              backgroundColor: selected === i ? '#a5d8ff' : '#eee',
+              color: selected === i ? 'black' : 'black',
+              borderRadius: '8px'
             }}
           >
             {opt}
           </button>
         ))}
+      </div>
 
-      <div style={{ marginTop: '20px' }}>
-        <button
-          onClick={() => setShowHint(true)}
-          style={{
-            marginRight: '10px',
-            padding: '12px 20px',
-            fontSize: '16px',
-            backgroundColor: '#eaeaea',
-            border: '1px solid #ccc',
-            borderRadius: '6px'
-          }}
-        >
-          Hint
-        </button>
-        <button
-          onClick={() => setShowExample(true)}
-          style={{
-            marginRight: '10px',
-            padding: '12px 20px',
-            fontSize: '16px',
-            backgroundColor: '#eaeaea',
-            border: '1px solid #ccc',
-            borderRadius: '6px'
-          }}
-        >
-          Example
-        </button>
-        <button
-          onClick={handleNext}
-          disabled={selected === null}
-          style={{
-            padding: '12px 20px',
-            fontSize: '16px',
-            backgroundColor: selected !== null ? '#0070f3' : '#ccc',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '6px',
-            cursor: selected !== null ? 'pointer' : 'default'
-          }}
-        >
-          Next
-        </button>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+        <button onClick={() => setShowHint(true)} style={{ padding: '10px 20px', fontSize: '16px' }}>Hint</button>
+        <button onClick={() => setShowExample(true)} style={{ padding: '10px 20px', fontSize: '16px' }}>Example</button>
+        <button onClick={handleBack} style={{ padding: '10px 20px', fontSize: '16px' }}>Back</button>
+        <button onClick={handleNext} disabled={selected === null} style={{ padding: '10px 20px', fontSize: '16px' }}>Next</button>
       </div>
 
       {showHint && (
-        <p style={{ marginTop: '15px', fontStyle: 'italic' }}>
-          Hint: {current.meaning} ({current.meaning_ko})
-        </p>
+        <p style={{ marginTop: '10px', color: 'blue' }}>{current.meaning} ({current.meaning_ko})</p>
       )}
-
-      {showExample && current.example_sentence && (
-        <p style={{ marginTop: '10px' }}>
-          Example: {current.example_sentence}
-        </p>
+      {showExample && (
+        <p style={{ marginTop: '10px', color: 'green' }}><strong>Example:</strong> {current.example_sentence}</p>
       )}
     </div>
   );
