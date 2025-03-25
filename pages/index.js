@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import idioms from '../data/toefl_idioms_150_with_korean.json';
+import idioms from '../data/toefl_idioms_150_with_korean_clean.json';
 
 function getRandomIdioms(data, count) {
   const shuffled = [...data].sort(() => 0.5 - Math.random());
