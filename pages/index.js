@@ -63,7 +63,7 @@ export default function Home() {
     const correct = results.filter(r => r.selected === r.correct).length;
     const incorrect = results.filter(r => r.selected !== r.correct);
     return (
-      <div style={{ padding: '20px' }}>
+      <div style={{ padding: '20px', minHeight: '100vh', position: 'relative' }}>
         <h2>Quiz Finished!</h2>
         <p>Score: {correct} / {results.length}</p>
 
@@ -83,6 +83,10 @@ export default function Home() {
         <button onClick={handleRestart} style={{ marginTop: '20px', padding: '12px 24px', fontSize: '16px' }}>
           Try New Quiz
         </button>
+
+        <footer style={{ marginTop: '40px', textAlign: 'center', color: '#aaa', fontSize: '14px' }}>
+          © 2025 Matt Damon
+        </footer>
       </div>
     );
   }
@@ -90,7 +94,7 @@ export default function Home() {
   const current = questions[index];
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px', minHeight: '100vh', position: 'relative' }}>
       <h2>{index + 1}. {current.idiom}</h2>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
         {current.options.map((opt, i) => (
@@ -141,6 +145,10 @@ export default function Home() {
           {current.example_sentence}
         </p>
       )}
+
+      <footer style={{ marginTop: '40px', textAlign: 'center', color: '#aaa', fontSize: '14px' }}>
+        © 2025 Matt Damon
+      </footer>
     </div>
   );
 }
