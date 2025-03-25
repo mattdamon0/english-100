@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import idioms from '../data/toefl_idioms_150_with_korean_clean.json';
+import idioms from '../data/toefl_idioms_150_with_korean.json';
 
 function getRandomIdioms(data, count) {
   const shuffled = [...data].sort(() => 0.5 - Math.random());
@@ -27,7 +27,8 @@ export default function Home() {
         selected,
         correct: current.correct,
         meaning: current.meaning,
-        meaning_ko: current.meaning_ko
+        meaning_ko: current.meaning_ko,
+        example_sentence: current.example_sentence
       }
     ]);
     setSelected(null);
@@ -41,16 +42,21 @@ export default function Home() {
     const correct = results.filter(r => r.selected === r.correct).length;
     return (
       <div style={{ padding: '20px' }}>
-        <h2>퀴즈 완료!</h2>
-        <p>맞춘 개수: {correct} / {results.length}</p>
-        <button onClick={() => {
-          const randomIdioms = getRandomIdioms(idioms, 20);
-          setQuestions(randomIdioms);
-          setIndex(0);
-          setResults([]);
-        }}>
-          다시 시작
-        </button>
+        <h2>Quiz Finished!</h2>
+        <p>Score: {correct} / {results.length}</p>
+        <ul>
+          {results.map((res, i) => (
+            <li key={i}>
+              <strong>{res.idiom}</strong> - {res.meaning}
+              <br />
+              {res.meaning_ko && <span style={{ color: 'blue' }}>({res.meaning_ko})</span>}
+              <br />
+              {res.example_sentence && (
+                <span style={{ fontStyle: 'italic' }}>Ex: {res.example_sentence}</span>
+              )}
+            </li>
+          ))}
+        </ul>
       </div>
     );
   }
@@ -60,7 +66,7 @@ export default function Home() {
   return (
     <div style={{ padding: '20px' }}>
       <h2>{index + 1}. {current.idiom}</h2>
-      {(Array.isArray(current.options) ? current.options : []).map((opt, i) => (
+      {Array.isArray(current.options) && current.options.map((opt, i) => (
         <button
           key={i}
           onClick={() => setSelected(i)}
@@ -68,24 +74,25 @@ export default function Home() {
             display: 'block',
             margin: '10px auto',
             padding: '10px',
-            backgroundColor: selected === i ? '#0070f3' : '#eee',
-            color: selected === i ? 'white' : 'black',
-            width: '80%',
-            fontSize: '16px'
+            backgroundColor: selected === i ? '#0070f3' : '#eee'
           }}
         >
           {opt}
         </button>
       ))}
-      <div style={{ marginTop: '10px' }}>
-        <button onClick={() => setShowHint(true)} style={{ marginRight: '10px' }}>힌트 보기</button>
-        <button onClick={handleNext} disabled={selected === null}>다음</button>
-      </div>
+      <button onClick={() => setShowHint(true)}>Show Hint</button>
       {showHint && (
-        <p style={{ marginTop: '10px', color: 'blue' }}>
-          {current.meaning} ({current.meaning_ko})
-        </p>
+        <div style={{ marginTop: '10px' }}>
+          <p>{current.meaning} ({current.meaning_ko})</p>
+          {current.example_sentence && (
+            <p style={{ fontStyle: 'italic', color: '#555' }}>
+              Example: {current.example_sentence}
+            </p>
+          )}
+        </div>
       )}
+      <br />
+      <button onClick={handleNext} disabled={selected === null}>Next</button>
     </div>
   );
 }
