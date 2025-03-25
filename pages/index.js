@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import idioms from '../data/toefl_idioms_150_with_korean_clean.json';
+import idioms from '../data/toefl_idioms_150_with_korean.json';
 
 function getRandomIdioms(data, count) {
   const shuffled = [...data].sort(() => 0.5 - Math.random());
@@ -66,11 +66,11 @@ export default function Home() {
     return (
       <div style={{ padding: '20px', textAlign: 'center' }}>
         <h2>Quiz Finished!</h2>
-        <p>Score: {correct} / {results.length}</p>
+        <p style={{ fontSize: '16px' }}>Score: {correct} / {results.length}</p>
 
         {incorrectAnswers.length > 0 && (
           <>
-            <h3>Incorrect Answers:</h3>
+            <h3 style={{ fontSize: '18px' }}>Incorrect Answers:</h3>
             {incorrectAnswers.map((item, i) => (
               <div key={i} style={{ marginBottom: '10px', border: '1px solid #ddd', padding: '10px' }}>
                 <strong>{item.idiom}</strong><br />
@@ -97,7 +97,7 @@ export default function Home() {
           Try Another 20
         </button>
 
-        <p style={{ marginTop: '30px', fontSize: '14px', color: '#888' }}>© Matt Damon</p>
+        <p style={{ marginTop: '30px', fontSize: '14px', color: '#888' }}>© 2025 Matt Damon</p>
       </div>
     );
   }
@@ -106,7 +106,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h2 style={{ textAlign: 'center' }}>{index + 1}. {current.idiom}</h2>
+      <h2 style={{ textAlign: 'center', fontSize: '20px' }}>{index + 1}. {current.idiom}</h2>
 
       <div style={{
         display: 'grid',
@@ -172,7 +172,7 @@ export default function Home() {
       )}
 
       <p style={{ marginTop: '40px', fontSize: '14px', textAlign: 'center', color: '#888' }}>
-        © Matt Damon
+        © 2025 Matt Damon
       </p>
     </div>
   );
