@@ -11,6 +11,7 @@ export default function Home() {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [showHint, setShowHint] = useState(false);
+  const [showExample, setShowExample] = useState(false);
   const [results, setResults] = useState([]);
 
   useEffect(() => {
@@ -33,6 +34,7 @@ export default function Home() {
     ]);
     setSelected(null);
     setShowHint(false);
+    setShowExample(false);
     setIndex(index + 1);
   };
 
@@ -46,7 +48,7 @@ export default function Home() {
         <p>Score: {correct} / {results.length}</p>
         <ul>
           {results.map((res, i) => (
-            <li key={i}>
+            <li key={i} style={{ marginBottom: '10px' }}>
               <strong>{res.idiom}</strong> - {res.meaning}
               <br />
               {res.meaning_ko && <span style={{ color: 'blue' }}>({res.meaning_ko})</span>}
@@ -80,17 +82,24 @@ export default function Home() {
           {opt}
         </button>
       ))}
-      <button onClick={() => setShowHint(true)}>Show Hint</button>
+      
+      <div style={{ marginTop: '10px' }}>
+        <button onClick={() => setShowHint(true)} style={{ marginRight: '10px' }}>Show Hint</button>
+        <button onClick={() => setShowExample(true)}>Show Example</button>
+      </div>
+
       {showHint && (
-        <div style={{ marginTop: '10px' }}>
-          <p>{current.meaning} ({current.meaning_ko})</p>
-          {current.example_sentence && (
-            <p style={{ fontStyle: 'italic', color: '#555' }}>
-              Example: {current.example_sentence}
-            </p>
-          )}
-        </div>
+        <p style={{ marginTop: '10px' }}>
+          {current.meaning} ({current.meaning_ko})
+        </p>
       )}
+
+      {showExample && current.example_sentence && (
+        <p style={{ marginTop: '10px', fontStyle: 'italic', color: '#555' }}>
+          Example: {current.example_sentence}
+        </p>
+      )}
+
       <br />
       <button onClick={handleNext} disabled={selected === null}>Next</button>
     </div>
