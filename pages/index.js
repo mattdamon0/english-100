@@ -134,7 +134,7 @@ export default function Home() {
       </div>
 
       {showHint && (
-        <p style={{ marginTop: '15px', fontSize: '16px', color: '#444' }}>
+        <p style={{ marginTop: '15px', fontSize: '14px', color: '#444' }}>
           {current.meaning} <br />
           <span style={{ color: '#0070f3' }}>{current.meaning_ko}</span>
         </p>
