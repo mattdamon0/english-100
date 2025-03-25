@@ -52,20 +52,24 @@ export default function Home() {
   return (
     <div style={{ padding: '20px' }}>
       <h2>{index + 1}. {current.idiom}</h2>
-      {current.options.map((opt, i) => (
-        <button
-          key={i}
-          onClick={() => setSelected(i)}
-          style={{
-            display: 'block',
-            margin: '10px auto',
-            padding: '10px',
-            backgroundColor: selected === i ? '#0070f3' : '#eee'
-          }}
-        >
-          {opt}
-        </button>
-      ))}
+      {Array.isArray(current.options) ? (
+        current.options.map((opt, i) => (
+          <button
+            key={i}
+            onClick={() => setSelected(i)}
+            style={{
+              display: 'block',
+              margin: '10px auto',
+              padding: '10px',
+              backgroundColor: selected === i ? '#0070f3' : '#eee'
+            }}
+          >
+            {opt}
+          </button>
+        ))
+      ) : (
+        <p style={{ color: 'red' }}>옵션 데이터를 불러올 수 없습니다.</p>
+      )}
       <button onClick={() => setShowHint(true)}>Show Hint</button>
       {showHint && (
         <p style={{ marginTop: '10px' }}>
