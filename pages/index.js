@@ -66,27 +66,71 @@ export default function Home() {
               padding: '10px',
               backgroundColor: selected === i ? '#0070f3' : '#eee',
               color: selected === i ? '#ffffff' : '#000000',
+              border: 'none',
+              borderRadius: '5px',
+              fontSize: '14px',
+              cursor: 'pointer'
             }}
           >
             {opt}
           </button>
         ))}
-      <div style={{ marginTop: '10px' }}>
-        <button onClick={() => setShowHint(true)} style={{ marginRight: '10px' }}>Show Hint</button>
-        <button onClick={() => setShowExample(true)}>Show Example</button>
+
+      <div style={{ marginTop: '20px' }}>
+        <button
+          onClick={() => setShowHint(true)}
+          style={{
+            marginRight: '10px',
+            padding: '12px 20px',
+            fontSize: '16px',
+            backgroundColor: '#eaeaea',
+            border: '1px solid #ccc',
+            borderRadius: '6px'
+          }}
+        >
+          Hint
+        </button>
+        <button
+          onClick={() => setShowExample(true)}
+          style={{
+            marginRight: '10px',
+            padding: '12px 20px',
+            fontSize: '16px',
+            backgroundColor: '#eaeaea',
+            border: '1px solid #ccc',
+            borderRadius: '6px'
+          }}
+        >
+          Example
+        </button>
+        <button
+          onClick={handleNext}
+          disabled={selected === null}
+          style={{
+            padding: '12px 20px',
+            fontSize: '16px',
+            backgroundColor: selected !== null ? '#0070f3' : '#ccc',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: selected !== null ? 'pointer' : 'default'
+          }}
+        >
+          Next
+        </button>
       </div>
+
       {showHint && (
-        <p style={{ marginTop: '10px' }}>
-          {current.meaning} ({current.meaning_ko})
+        <p style={{ marginTop: '15px', fontStyle: 'italic' }}>
+          Hint: {current.meaning} ({current.meaning_ko})
         </p>
       )}
+
       {showExample && current.example_sentence && (
-        <p style={{ marginTop: '10px', fontStyle: 'italic' }}>
+        <p style={{ marginTop: '10px' }}>
           Example: {current.example_sentence}
         </p>
       )}
-      <br />
-      <button onClick={handleNext} disabled={selected === null}>Next</button>
     </div>
   );
 }
