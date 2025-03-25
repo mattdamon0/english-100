@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import idioms from '../data/toefl_idioms_150_with_korean_clean.json';
+import idioms from '../data/toefl_idioms_150_with_korean.json';
 
 function getRandomIdioms(data, count) {
   const shuffled = [...data].sort(() => 0.5 - Math.random());
@@ -28,7 +28,8 @@ export default function Home() {
         selected,
         correct: current.correct,
         meaning: current.meaning,
-        example: current.example_sentence
+        meaning_ko: current.meaning_ko,
+        example_sentence: current.example_sentence
       }
     ]);
     setSelected(null);
@@ -37,7 +38,7 @@ export default function Home() {
     setIndex(index + 1);
   };
 
-  const handleBack = () => {
+  const handlePrevious = () => {
     if (index > 0) {
       setIndex(index - 1);
       setSelected(null);
@@ -60,32 +61,27 @@ export default function Home() {
 
   if (index >= questions.length) {
     const correct = results.filter(r => r.selected === r.correct).length;
-    const incorrect = results.length - correct;
-
+    const incorrect = results.filter(r => r.selected !== r.correct);
     return (
       <div style={{ padding: '20px' }}>
         <h2>Quiz Finished!</h2>
-        <p>Correct: {correct} | Incorrect: {incorrect} / {results.length}</p>
+        <p>Score: {correct} / {results.length}</p>
 
-        <div style={{ marginTop: '20px' }}>
-          {results.map((r, i) => (
-            <div key={i} style={{ 
-              border: '1px solid #ccc', 
-              padding: '10px', 
-              marginBottom: '10px', 
-              backgroundColor: r.selected === r.correct ? '#e6ffe6' : '#ffe6e6' 
-            }}>
-              <strong>{r.idiom}</strong><br />
-              Your Answer: {r.selected !== null ? r.selected + 1 : 'None'}<br />
-              Correct Answer: {r.correct + 1}<br />
-              Meaning: {r.meaning}<br />
-              Example: {r.example}
-            </div>
-          ))}
-        </div>
+        {incorrect.length > 0 && (
+          <>
+            <h3>Incorrect Answers:</h3>
+            {incorrect.map((r, i) => (
+              <div key={i} style={{ marginBottom: '10px' }}>
+                <strong>{r.idiom}</strong><br />
+                Correct: {r.meaning} ({r.meaning_ko})<br />
+                Your Answer: {r.selected !== null ? r.selected + 1 : 'None'}
+              </div>
+            ))}
+          </>
+        )}
 
-        <button onClick={handleRestart} style={{ marginTop: '20px', padding: '14px', fontSize: '16px' }}>
-          Try Again
+        <button onClick={handleRestart} style={{ marginTop: '20px', padding: '12px 24px', fontSize: '16px' }}>
+          Try New Quiz
         </button>
       </div>
     );
@@ -96,13 +92,7 @@ export default function Home() {
   return (
     <div style={{ padding: '20px' }}>
       <h2>{index + 1}. {current.idiom}</h2>
-
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '10px',
-        marginBottom: '20px'
-      }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
         {current.options.map((opt, i) => (
           <button
             key={i}
@@ -111,9 +101,7 @@ export default function Home() {
               padding: '10px',
               fontSize: '14px',
               backgroundColor: selected === i ? '#0070f3' : '#eee',
-              color: selected === i ? '#fff' : '#000',
-              whiteSpace: 'normal',
-              wordWrap: 'break-word'
+              color: selected === i ? '#fff' : '#000'
             }}
           >
             {opt}
@@ -121,27 +109,25 @@ export default function Home() {
         ))}
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginBottom: '20px' }}>
-        <button onClick={() => setShowHint(true)} style={{ padding: '14px', fontSize: '16px' }}>
-          Show Hint
-        </button>
-        <button onClick={() => setShowExample(true)} style={{ padding: '14px', fontSize: '16px' }}>
-          Show Example
-        </button>
-        <button onClick={handleNext} disabled={selected === null} style={{ padding: '14px', fontSize: '16px' }}>
-          Next
-        </button>
+      <div style={{ marginTop: '20px', display: 'flex', gap: '10px', justifyContent: 'center' }}>
+        <button onClick={() => setShowHint(true)} style={{ padding: '12px 20px', fontSize: '16px' }}>Hint</button>
+        <button onClick={() => setShowExample(true)} style={{ padding: '12px 20px', fontSize: '16px' }}>Example</button>
+        <button onClick={handleNext} disabled={selected === null} style={{ padding: '12px 20px', fontSize: '16px' }}>Next</button>
+        <button onClick={handlePrevious} style={{ padding: '12px 20px', fontSize: '16px' }}>Back</button>
       </div>
 
-      <div style={{ textAlign: 'center' }}>
-        {index > 0 && (
-          <button onClick={handleBack} style={{ padding: '10px', fontSize: '14px' }}>
-            Back
-          </button>
-        )}
-        {showHint && <p style={{ marginTop: '10px', color: 'blue' }}>Hint: {current.meaning}</p>}
-        {showExample && <p style={{ marginTop: '10px', color: 'green' }}>Example: {current.example_sentence}</p>}
-      </div>
+      {showHint && (
+        <p style={{ marginTop: '15px', fontSize: '16px', color: '#444' }}>
+          {current.meaning} <br />
+          <span style={{ color: '#0070f3' }}>{current.meaning_ko}</span>
+        </p>
+      )}
+
+      {showExample && (
+        <p style={{ marginTop: '15px', fontStyle: 'italic', color: '#555' }}>
+          {current.example_sentence}
+        </p>
+      )}
     </div>
   );
 }
