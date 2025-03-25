@@ -109,11 +109,24 @@ export default function Home() {
         ))}
       </div>
 
-      <div style={{ marginTop: '20px', display: 'flex', gap: '10px', justifyContent: 'center' }}>
-        <button onClick={() => setShowHint(true)} style={{ padding: '12px 20px', fontSize: '16px' }}>Hint</button>
-        <button onClick={() => setShowExample(true)} style={{ padding: '12px 20px', fontSize: '16px' }}>Example</button>
-        <button onClick={handleNext} disabled={selected === null} style={{ padding: '12px 20px', fontSize: '16px' }}>Next</button>
-        <button onClick={handlePrevious} style={{ padding: '12px 20px', fontSize: '16px' }}>Back</button>
+      <div style={{
+        marginTop: '30px',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: '20px',
+        flexWrap: 'wrap'
+      }}>
+        <div style={{ flex: '1', textAlign: 'left' }}>
+          <button onClick={handlePrevious} style={{ padding: '12px 20px', fontSize: '16px' }}>Back</button>
+        </div>
+        <div style={{ flex: '1', textAlign: 'center' }}>
+          <button onClick={() => setShowHint(true)} style={{ padding: '12px 20px', fontSize: '16px', marginRight: '10px' }}>Hint</button>
+          <button onClick={() => setShowExample(true)} style={{ padding: '12px 20px', fontSize: '16px' }}>Example</button>
+        </div>
+        <div style={{ flex: '1', textAlign: 'right' }}>
+          <button onClick={handleNext} disabled={selected === null} style={{ padding: '12px 20px', fontSize: '16px' }}>Next</button>
+        </div>
       </div>
 
       {showHint && (
