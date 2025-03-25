@@ -1,0 +1,1346 @@
+[
+    {
+        "idiom": "Add fuel to the fire",
+        "meaning": "To make a bad situation worse",
+        "meaning_ko": "상황을 더 악화시키다",
+        "options": "['Going beyond what is normal or expected', 'To act slowly or reluctantly', 'To make a bad situation worse', 'Extremely happy and excited']",
+        "correct": 2,
+        "example_sentence": "The CEO's controversial statement only added fuel to the fire in the ongoing debate about corporate ethics."
+    },
+    {
+        "idiom": "A penny for your thoughts",
+        "meaning": "Tell me what you are thinking",
+        "meaning_ko": "무슨 생각을 하고 있는지 말해줘",
+        "options": "['Tell me what you are thinking', 'Good luck', 'Someone who argues against something to test its validity', 'To become uncontrollable']",
+        "correct": 0,
+        "example_sentence": "After a long silence, the professor turned to me and said, 'A penny for your thoughts on this theory?'"
+    },
+    {
+        "idiom": "Actions speak louder than words",
+        "meaning": "What you do is more important than what you say",
+        "meaning_ko": "행동이 말보다 더 중요하다",
+        "options": "['To endure a difficult situation and survive', 'Don’t be upset about something that has already happened', 'It is your decision or responsibility now', 'What you do is more important than what you say']",
+        "correct": 3,
+        "example_sentence": "Although the company claimed to care about the environment, their continued pollution proved that actions speak louder than words."
+    },
+    {
+        "idiom": "All ears",
+        "meaning": "Fully listening",
+        "meaning_ko": "완전히 집중해서 듣다",
+        "options": "['To joke with someone in a playful way', 'Fully listening', 'Raining very heavily', 'To start something with energy and enthusiasm']",
+        "correct": 1,
+        "example_sentence": "During the lecture on quantum mechanics, the students were all ears, eager to understand the complex topic."
+    },
+    {
+        "idiom": "At the drop of a hat",
+        "meaning": "Immediately, without hesitation",
+        "meaning_ko": "즉시, 망설임 없이",
+        "options": "['Reverse a situation to one’s advantage', 'In a straight line (used for measuring distance)', 'Immediately, without hesitation', 'To endure a difficult situation and survive']",
+        "correct": 2,
+        "example_sentence": "In emergency situations, doctors must be ready to respond at the drop of a hat."
+    },
+    {
+        "idiom": "Back to square one",
+        "meaning": "Start from the beginning",
+        "meaning_ko": "처음부터 다시 시작하다",
+        "options": "['To take a risk without worrying about the consequences', 'Start from the beginning', 'To be very cautious not to upset someone', 'A pointless or hopeless pursuit']",
+        "correct": 1,
+        "example_sentence": "After discovering an error in their research data, the scientists had to go back to square one and repeat the experiment."
+    },
+    {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "Looking in the wrong place",
+        "meaning_ko": "잘못된 방향으로 추측하다",
+        "options": "['To understand the hidden meaning of something', 'To achieve great success or win a lot of money', 'Looking in the wrong place', 'Generally speaking']",
+        "correct": 2,
+        "example_sentence": "If you think increasing penalties will reduce crime rates, you might be barking up the wrong tree."
+    },
+    {
+        "idiom": "Break the bank",
+        "meaning": "To use up all of one’s money",
+        "meaning_ko": "많은 돈을 쓰다",
+        "options": "['To use up all of one’s money', 'What you do is more important than what you say', 'Just barely', 'Feeling sick or unwell']",
+        "correct": 0,
+        "example_sentence": "Studying abroad can be a great experience, but for many students, it might break the bank."
+    },
+    {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To overwork yourself by doing too many things",
+        "meaning_ko": "무리하게 일하다, 밤낮없이 일하다",
+        "options": "['To ignore someone', 'To overwork yourself by doing too many things', 'A little-known person or thing that emerges to prominence', 'To start fresh and improve one’s behavior']",
+        "correct": 1,
+        "example_sentence": "With final exams approaching, many students find themselves burning the candle at both ends to complete their studies."
+    },
+    {
+        "idiom": "By the skin of one’s teeth",
+        "meaning": "Just barely",
+        "meaning_ko": "간신히, 가까스로",
+        "options": "['To do something innovative or pioneering', 'Just barely', 'To ignore something intentionally', 'To extend beyond the original limits']",
+        "correct": 1,
+        "example_sentence": "She managed to pass the TOEFL test by the skin of her teeth, scoring just above the required threshold."
+    },
+    {
+        "idiom": "Caught between a rock and a hard place",
+        "meaning": "Being in a difficult situation where both choices are bad",
+        "meaning_ko": "진퇴양난에 빠지다",
+        "options": "['Being in a difficult situation where both choices are bad', 'To leave a situation suddenly, especially in crisis', 'To joke with someone in a playful way', 'Something that starts well but fails quickly']",
+        "correct": 0,
+        "example_sentence": "The government was caught between a rock and a hard place when trying to balance economic growth with environmental protection."
+    },
+    {
+        "idiom": "Don’t cry over spilled milk",
+        "meaning": "Don’t be upset about something that has already happened",
+        "meaning_ko": "이미 지나간 일에 대해 후회하지 마라",
+        "options": "['To start something with energy and enthusiasm', 'Don’t be upset about something that has already happened', 'Reverse a situation to one’s advantage', 'In a straight line (used for measuring distance)']",
+        "correct": 1,
+        "example_sentence": "After failing the test, she reminded herself not to cry over spilled milk and focused on studying for the next exam."
+    },
+    {
+        "idiom": "Down to the wire",
+        "meaning": "At the last possible moment",
+        "meaning_ko": "마지막 순간까지",
+        "options": "['Good luck', 'At the last possible moment', 'Start from the beginning', 'Say something embarrassing or inappropriate']",
+        "correct": 1,
+        "example_sentence": "The negotiations between the two countries went down to the wire before a last-minute agreement was reached."
+    },
+    {
+        "idiom": "Draw the line",
+        "meaning": "Set a limit on what is acceptable",
+        "meaning_ko": "한계를 설정하다",
+        "options": "['Set a limit on what is acceptable', 'To argue against something for the sake of discussion', 'To ignore something intentionally', 'It is up to you to make a decision']",
+        "correct": 0,
+        "example_sentence": "The professor had to draw the line when students kept asking for deadline extensions."
+    },
+    {
+        "idiom": "Eat your words",
+        "meaning": "To take back what you said",
+        "meaning_ko": "자신의 말을 취소하다",
+        "options": "['Ignore or hide a problem', 'Adapt to difficult situations', 'To avoid talking about something directly', 'To take back what you said']",
+        "correct": 3,
+        "example_sentence": "He had to eat his words after realizing his assumptions about the project were incorrect."
+    },
+    {
+        "idiom": "Fit as a fiddle",
+        "meaning": "In good physical health",
+        "meaning_ko": "건강한, 매우 건강한",
+        "options": "['To exaggerate a small problem', 'To adopt a popular activity or trend', 'Go straight toward something', 'In good physical health']",
+        "correct": 3,
+        "example_sentence": "Despite his age, the marathon runner was as fit as a fiddle and finished in the top ten."
+    },
+    {
+        "idiom": "Fly off the handle",
+        "meaning": "To become very angry suddenly",
+        "meaning_ko": "갑자기 화를 내다",
+        "options": "['Start something with great energy and enthusiasm', 'Ignore or hide a problem', 'To become very angry suddenly', 'Not drawing attention to oneself']",
+        "correct": 2,
+        "example_sentence": "The manager flew off the handle when he saw that the deadlines were not met again."
+    },
+    {
+        "idiom": "From scratch",
+        "meaning": "From the beginning",
+        "meaning_ko": "처음부터 다시 시작하다",
+        "options": "['Uncertain or undecided', 'From the beginning', 'To leave a situation suddenly, especially in crisis', 'Start from the beginning']",
+        "correct": 1,
+        "example_sentence": "The scientists had to start the experiment from scratch after discovering an error in their initial data."
+    },
+    {
+        "idiom": "Give someone the cold shoulder",
+        "meaning": "To ignore someone",
+        "meaning_ko": "누군가를 쌀쌀맞게 대하다",
+        "options": "['To ignore someone', 'To remain neutral or undecided', 'Very expensive', 'To adopt a popular activity or trend']",
+        "correct": 0,
+        "example_sentence": "She gave him the cold shoulder after he forgot her birthday."
+    },
+    {
+        "idiom": "Go the extra mile",
+        "meaning": "To make an extra effort",
+        "meaning_ko": "더 노력하다, 기대 이상으로 하다",
+        "options": "['Take a risk', 'Don’t assume something will happen before it actually does', 'To take back what you said', 'To make an extra effort']",
+        "correct": 3,
+        "example_sentence": "The professor went the extra mile to ensure students understood the complex concepts."
+    },
+    {
+        "idiom": "Have a bone to pick",
+        "meaning": "To have a disagreement or issue with someone",
+        "meaning_ko": "불만이 있다, 따질 일이 있다",
+        "options": "['Overwhelmed by emotions', 'To be very cautious not to upset someone', 'To have a disagreement or issue with someone', 'To joke with someone in a playful way']",
+        "correct": 2,
+        "example_sentence": "I have a bone to pick with the internet provider about the constant service interruptions."
+    },
+    {
+        "idiom": "Have bigger fish to fry",
+        "meaning": "To have more important things to do",
+        "meaning_ko": "더 중요한 일이 있다",
+        "options": "['To have more important things to do', 'Fully listening', 'To ignore something intentionally', 'Very close in competition']",
+        "correct": 0,
+        "example_sentence": "She decided not to argue about the small issue since she had bigger fish to fry at work."
+    },
+    {
+        "idiom": "Hit the ground running",
+        "meaning": "To start something with energy and enthusiasm",
+        "meaning_ko": "빠르게 시작하다",
+        "options": "['To start something with energy and enthusiasm', 'To not take something too seriously', 'It is your decision or responsibility now', 'Forget past arguments or problems']",
+        "correct": 0,
+        "example_sentence": "The new employee hit the ground running by taking charge of a major project on his first day."
+    },
+    {
+        "idiom": "In the heat of the moment",
+        "meaning": "Overwhelmed by emotions",
+        "meaning_ko": "감정이 격해져서",
+        "options": "['To become uncontrollable', 'To endure a painful situation bravely', 'Overwhelmed by emotions', \"To take credit for someone else's work or idea\"]",
+        "correct": 2,
+        "example_sentence": "He regretted his words, realizing they were spoken in the heat of the moment."
+    },
+    {
+        "idiom": "Jump the bandwagon",
+        "meaning": "To adopt a popular trend",
+        "meaning_ko": "유행을 따르다",
+        "options": "['Fail spectacularly', 'To adopt a popular trend', 'Something that will never happen', 'To improvise rather than plan ahead']",
+        "correct": 1,
+        "example_sentence": "Many companies jumped the bandwagon of AI development to stay competitive."
+    },
+    {
+        "idiom": "Know the ropes",
+        "meaning": "To understand the details of a situation",
+        "meaning_ko": "요령을 알다, 경험이 많다",
+        "options": "['To understand the details of a situation', 'To watch carefully or monitor closely', 'Going beyond what is normal or expected', 'Past problems no longer important']",
+        "correct": 0,
+        "example_sentence": "After years of working in the industry, he truly knows the ropes."
+    },
+    {
+        "idiom": "Leave no stone unturned",
+        "meaning": "To try every possible way to achieve something",
+        "meaning_ko": "할 수 있는 모든 방법을 시도하다",
+        "options": "['To ignore someone intentionally', 'To endure a difficult situation and survive', 'Don’t be upset about something that has already happened', 'To try every possible way to achieve something']",
+        "correct": 3,
+        "example_sentence": "The detective left no stone unturned in his search for the missing documents."
+    },
+    {
+        "idiom": "Let sleeping dogs lie",
+        "meaning": "To avoid causing trouble by not bringing up past conflicts",
+        "meaning_ko": "괜히 문제를 일으키지 마라",
+        "options": "['To avoid causing trouble by not bringing up past conflicts', 'Very rarely', 'Looking in the wrong place', 'To start something with energy and enthusiasm']",
+        "correct": 0,
+        "example_sentence": "She chose not to bring up the past mistake, preferring to let sleeping dogs lie."
+    },
+    {
+        "idiom": "Make a mountain out of a molehill",
+        "meaning": "To exaggerate a small problem",
+        "meaning_ko": "작은 문제를 과장하다",
+        "options": "['Reverse a situation to one’s advantage', 'To exaggerate a small problem', 'To miss an opportunity', 'To regret something that cannot be changed']",
+        "correct": 1,
+        "example_sentence": "Stop making a mountain out of a molehill. It’s just a minor issue."
+    },
+    {
+        "idiom": "Off the hook",
+        "meaning": "To be free from blame or responsibility",
+        "meaning_ko": "책임에서 벗어나다",
+        "options": "['Be the first to criticize someone', 'Quit something abruptly and completely', 'To be free from blame or responsibility', 'Go through many challenges to achieve something']",
+        "correct": 2,
+        "example_sentence": "Luckily, the evidence proved his innocence, so he was off the hook."
+    },
+    {
+        "idiom": "On thin ice",
+        "meaning": "In a risky situation",
+        "meaning_ko": "위태로운 상황에 있다",
+        "options": "['Start something with great energy and enthusiasm', 'In a risky situation', 'The final problem that leads to failure', 'To not take something too seriously']",
+        "correct": 1,
+        "example_sentence": "After missing several deadlines, he knew he was on thin ice with his manager."
+    },
+    {
+        "idiom": "Once in a lifetime",
+        "meaning": "A very rare opportunity",
+        "meaning_ko": "일생에 한 번 있는",
+        "options": "['Very close in competition', 'A very rare opportunity', 'To understand the hidden meaning', 'To do something innovative or pioneering']",
+        "correct": 1,
+        "example_sentence": "Winning the scholarship was a once-in-a-lifetime opportunity for him."
+    },
+    {
+        "idiom": "Out of the blue",
+        "meaning": "Unexpectedly",
+        "meaning_ko": "갑자기, 뜻밖에",
+        "options": "['Unexpected and surprising', 'To ignore someone intentionally', 'At the last possible moment', 'Unexpectedly']",
+        "correct": 3,
+        "example_sentence": "His decision to resign came out of the blue and shocked everyone."
+    },
+    {
+        "idiom": "Pass the buck",
+        "meaning": "To avoid responsibility by shifting it to someone else",
+        "meaning_ko": "책임을 남에게 떠넘기다",
+        "options": "['Faced with two bad options', 'Going beyond what is normal or expected', 'What you do is more important than what you say', 'To avoid responsibility by shifting it to someone else']",
+        "correct": 3,
+        "example_sentence": "The manager refused to take responsibility and passed the buck to his assistant."
+    },
+    {
+        "idiom": "Put all your eggs in one basket",
+        "meaning": "To risk everything on a single opportunity",
+        "meaning_ko": "모든 것을 하나의 기회에 걸다",
+        "options": "['Generally speaking', 'Raining very heavily', 'Unexpected and surprising', 'To risk everything on a single opportunity']",
+        "correct": 3,
+        "example_sentence": "Investing all your savings in one stock is like putting all your eggs in one basket."
+    },
+    {
+        "idiom": "Read between the lines",
+        "meaning": "To understand the hidden meaning",
+        "meaning_ko": "숨겨진 의미를 파악하다",
+        "options": "['To understand the hidden meaning', 'Very rarely', 'Unexpected and surprising', 'To exaggerate a small problem']",
+        "correct": 0,
+        "example_sentence": "His speech was vague, but if you read between the lines, he was hinting at budget cuts."
+    },
+    {
+        "idiom": "Saved by the bell",
+        "meaning": "Rescued at the last possible moment",
+        "meaning_ko": "위기에서 구출되다",
+        "options": "['Be well prepared or organized', 'Something that will never happen', 'Something that starts well but fails quickly', 'Rescued at the last possible moment']",
+        "correct": 3,
+        "example_sentence": "The student was saved by the bell before the teacher could call on him."
+    },
+    {
+        "idiom": "Set in stone",
+        "meaning": "Fixed and unchangeable",
+        "meaning_ko": "변경할 수 없는, 확정된",
+        "options": "['Fixed and unchangeable', 'Looking in the wrong place', 'Unexpectedly', \"To take credit for someone else's work or idea\"]",
+        "correct": 0,
+        "example_sentence": "Their travel plans are not set in stone and may change based on weather conditions."
+    },
+    {
+        "idiom": "Steal someone’s thunder",
+        "meaning": "To take credit for someone else's work or idea",
+        "meaning_ko": "남의 아이디어를 가로채다",
+        "options": "['Adapt to difficult situations', 'To start fresh and improve one’s behavior', 'Just barely', \"To take credit for someone else's work or idea\"]",
+        "correct": 3,
+        "example_sentence": "She felt frustrated when her colleague stole her thunder by presenting her idea first."
+    },
+    {
+        "idiom": "Take it with a grain of salt",
+        "meaning": "To not take something too seriously",
+        "meaning_ko": "조금 의심하며 듣다",
+        "options": "['Speak frankly, even if it’s unpleasant', 'To not take something too seriously', 'To understand the hidden meaning', 'To describe exactly what is causing a situation']",
+        "correct": 1,
+        "example_sentence": "You should take his promises with a grain of salt since he often exaggerates."
+    },
+    {
+        "idiom": "The early bird catches the worm",
+        "meaning": "The person who takes action first will succeed",
+        "meaning_ko": "먼저 행동하는 사람이 성공한다",
+        "options": "['Manipulate financial records illegally', 'A secret advantage or resource', 'Hurry up', 'The person who takes action first will succeed']",
+        "correct": 3,
+        "example_sentence": "She always arrives at sales early, knowing that the early bird catches the worm."
+    },
+    {
+        "idiom": "Throw in the towel",
+        "meaning": "To give up",
+        "meaning_ko": "포기하다",
+        "options": "['Very expensive', 'A secret advantage or resource', 'To have a disagreement or issue with someone', 'To give up']",
+        "correct": 3,
+        "example_sentence": "After struggling with the project for months, he finally threw in the towel."
+    },
+    {
+        "idiom": "Turn a blind eye",
+        "meaning": "To ignore something intentionally",
+        "meaning_ko": "모른 척하다",
+        "options": "['Hold a grudge or be easily offended', 'To ignore something intentionally', 'Faced with two bad options', 'A very rare opportunity']",
+        "correct": 1,
+        "example_sentence": "The supervisor turned a blind eye to minor mistakes as long as the project was completed."
+    },
+    {
+        "idiom": "Under one’s belt",
+        "meaning": "To have experience or achievement in something",
+        "meaning_ko": "경험을 쌓다",
+        "options": "['Speak frankly, even if it’s unpleasant', 'To have experience or achievement in something', 'Forget past arguments or problems', 'It is your decision or responsibility now']",
+        "correct": 1,
+        "example_sentence": "With several successful projects under his belt, he was promoted to manager."
+    },
+    {
+        "idiom": "Walk on eggshells",
+        "meaning": "To be very cautious not to upset someone",
+        "meaning_ko": "조심스럽게 행동하다",
+        "options": "['To be very cautious not to upset someone', 'To have more important things to do', 'Extremely happy and excited', 'To adopt a popular activity or trend']",
+        "correct": 0,
+        "example_sentence": "After the argument, everyone in the office was walking on eggshells around their boss."
+    },
+    {
+        "idiom": "Wipe the slate clean",
+        "meaning": "To forgive and forget past conflicts",
+        "meaning_ko": "과거를 잊고 새 출발하다",
+        "options": "['To forgive and forget past conflicts', 'To watch carefully or monitor closely', 'To study very hard', 'To make important decisions']",
+        "correct": 0,
+        "example_sentence": "After the misunderstanding, they decided to wipe the slate clean and start fresh."
+    },
+    {
+        "idiom": "Work against the clock",
+        "meaning": "To try to finish something within a limited time",
+        "meaning_ko": "시간과 싸우며 일하다",
+        "options": "['It is your decision or responsibility now', 'To try to finish something within a limited time', 'I have no idea', 'Directly from the source']",
+        "correct": 1,
+        "example_sentence": "We had to work against the clock to finish the assignment before the deadline."
+    },
+    {
+        "idiom": "You can’t judge a book by its cover",
+        "meaning": "Appearances can be deceiving",
+        "meaning_ko": "겉모습만 보고 판단할 수 없다",
+        "options": "['Don’t be upset about something that has already happened', 'Appearances can be deceiving', 'To have experience or achievement in something', 'To not take something too seriously']",
+        "correct": 1,
+        "example_sentence": "The shy student turned out to be the most talented in class, proving that you can't judge a book by its cover."
+    },
+    {
+        "idiom": "Your hands are tied",
+        "meaning": "You are unable to do anything about a situation",
+        "meaning_ko": "할 수 있는 일이 없다",
+        "options": "['Extremely happy and excited', 'Fail spectacularly', 'You are unable to do anything about a situation', 'Give up or surrender']",
+        "correct": 2,
+        "example_sentence": "The teacher wanted to extend the deadline, but his hands were tied by school policy."
+    },
+    {
+        "idiom": "Break the ice",
+        "meaning": "To make people feel comfortable in a social setting",
+        "meaning_ko": "어색한 분위기를 깨다",
+        "options": "['To adopt a popular trend', 'To watch carefully or monitor closely', 'To make people feel comfortable in a social setting', 'A hidden and embarrassing secret']",
+        "correct": 2,
+        "example_sentence": "To break the ice, the host started the meeting with a fun question."
+    },
+    {
+        "idiom": "Hit the books",
+        "meaning": "To study very hard",
+        "meaning_ko": "열심히 공부하다",
+        "options": "['A hidden and embarrassing secret', \"Someone who talks tough but doesn't act tough\", 'To study very hard', 'Uncertain or undecided']",
+        "correct": 2,
+        "example_sentence": "With exams coming up, she spent every evening hitting the books."
+    },
+    {
+        "idiom": "Piece of cake",
+        "meaning": "Something very easy to do",
+        "meaning_ko": "매우 쉬운 일",
+        "options": "['Something very easy to do', 'Directly from the source', 'To make a bad situation worse', 'To avoid causing trouble by not bringing up past conflicts']",
+        "correct": 0,
+        "example_sentence": "The test was a piece of cake since I had studied thoroughly."
+    },
+    {
+        "idiom": "Under the weather",
+        "meaning": "Feeling sick or unwell",
+        "meaning_ko": "몸이 좋지 않다",
+        "options": "['Feeling sick or unwell', 'To understand the details of a situation', 'Not drawing attention to oneself', 'Give up or surrender']",
+        "correct": 0,
+        "example_sentence": "He didn’t attend the meeting because he was feeling under the weather."
+    },
+    {
+        "idiom": "Once in a blue moon",
+        "meaning": "Very rarely",
+        "meaning_ko": "극히 드물게",
+        "options": "['To do something too soon or prematurely', 'To risk everything on a single opportunity', 'Very rarely', 'To avoid responsibility by shifting it to someone else']",
+        "correct": 2,
+        "example_sentence": "I eat fast food only once in a blue moon since I prefer homemade meals."
+    },
+    {
+        "idiom": "Cost an arm and a leg",
+        "meaning": "Very expensive",
+        "meaning_ko": "매우 비싸다",
+        "options": "['Start something with great energy and enthusiasm', 'Very expensive', 'Be the first to criticize someone', 'Understand how something is done']",
+        "correct": 1,
+        "example_sentence": "That designer handbag cost an arm and a leg."
+    },
+    {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret",
+        "meaning_ko": "비밀을 누설하다",
+        "options": "['To reveal a secret', 'Accidentally get rid of something valuable', 'To calm down and behave normally', 'A general guideline based on experience']",
+        "correct": 0,
+        "example_sentence": "He accidentally spilled the beans about the surprise party."
+    },
+    {
+        "idiom": "Let the cat out of the bag",
+        "meaning": "To accidentally reveal a secret",
+        "meaning_ko": "비밀을 누설하다",
+        "options": "['To accidentally reveal a secret', 'Not paying attention to what’s happening around', 'Reveal a secret', 'In good physical health']",
+        "correct": 0,
+        "example_sentence": "She let the cat out of the bag and revealed the company's new product ahead of time."
+    },
+    {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "To be mistaken or misguided",
+        "meaning_ko": "잘못된 방향으로 추측하다",
+        "options": "['Uncertain or undecided', 'To miss an opportunity', 'Confront a difficult situation boldly', 'To be mistaken or misguided']",
+        "correct": 3,
+        "example_sentence": "If you think increasing penalties will reduce crime rates, you might be barking up the wrong tree."
+    },
+    {
+        "idiom": "Beat around the bush",
+        "meaning": "To avoid talking about something directly",
+        "meaning_ko": "요점을 피하다",
+        "options": "['To improvise rather than plan ahead', 'Adapt to difficult situations', 'It is your decision or responsibility now', 'To avoid talking about something directly']",
+        "correct": 3,
+        "example_sentence": "Instead of beating around the bush, just tell me exactly what happened."
+    },
+    {
+        "idiom": "Bite the bullet",
+        "meaning": "To endure a painful situation bravely",
+        "meaning_ko": "어려움을 감내하다",
+        "options": "['Say something embarrassing or inappropriate', 'To not take something too seriously', 'To endure a painful situation bravely', 'To start over from the beginning']",
+        "correct": 2,
+        "example_sentence": "During the TOEFL test, I had to bite the bullet and focus even though I was very nervous."
+    },
+    {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work late into the night",
+        "meaning_ko": "밤늦게까지 공부하다",
+        "options": "['To calm down and behave normally', 'To adopt a popular activity or trend', 'Give up something bad for you', 'To work late into the night']",
+        "correct": 3,
+        "example_sentence": "She burned the midnight oil for weeks to prepare for the TOEFL exam."
+    },
+    {
+        "idiom": "Call it a day",
+        "meaning": "To stop working for the day",
+        "meaning_ko": "하루 일을 마치다",
+        "options": "['To stop working for the day', 'To have more important things to do', 'Take a subordinate role', 'Faced with two bad options']",
+        "correct": 0,
+        "example_sentence": "After studying for five hours straight, he decided to call it a day."
+    },
+    {
+        "idiom": "Cut to the chase",
+        "meaning": "To get to the point without unnecessary details",
+        "meaning_ko": "본론으로 들어가다",
+        "options": "['To remain neutral or undecided', 'Be the first to criticize someone', 'To get to the point without unnecessary details', 'To be very cautious not to upset someone']",
+        "correct": 2,
+        "example_sentence": "The professor asked the student to cut to the chase and summarize the research findings."
+    },
+    {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To describe exactly what is causing a situation",
+        "meaning_ko": "정확하게 짚다",
+        "options": "['To describe exactly what is causing a situation', 'Raining very heavily', 'Generally speaking', 'Ignore or hide a problem']",
+        "correct": 0,
+        "example_sentence": "When she said that TOEFL requires strong vocabulary, she really hit the nail on the head."
+    },
+    {
+        "idiom": "Jump on the bandwagon",
+        "meaning": "To adopt a popular activity or trend",
+        "meaning_ko": "유행을 따르다",
+        "options": "['To use up all of one’s money', 'To leave a situation suddenly, especially in crisis', 'To adopt a popular activity or trend', 'Extremely happy']",
+        "correct": 2,
+        "example_sentence": "Many students jumped on the bandwagon of using AI tools for language learning."
+    },
+    {
+        "idiom": "Miss the boat",
+        "meaning": "To miss an opportunity",
+        "meaning_ko": "기회를 놓치다",
+        "options": "['To make an extra effort', 'To miss an opportunity', 'To forgive and forget past conflicts', 'Adapt to difficult situations']",
+        "correct": 1,
+        "example_sentence": "If you don't register for the TOEFL test now, you might miss the boat and have to wait for another month."
+    },
+    {
+        "idiom": "Pull someone's leg",
+        "meaning": "To joke with someone in a playful way",
+        "meaning_ko": "장난을 치다",
+        "options": "['To start something with energy and enthusiasm', 'Create a situation full of complications', 'To avoid talking about something directly', 'To joke with someone in a playful way']",
+        "correct": 3,
+        "example_sentence": "I thought he was serious about failing the TOEFL test, but he was just pulling my leg."
+    },
+    {
+        "idiom": "Read between the lines",
+        "meaning": "To understand the hidden meaning of something",
+        "meaning_ko": "숨겨진 의미를 파악하다",
+        "options": "['To forgive and forget past conflicts', 'To understand the hidden meaning of something', 'Confront a difficult situation boldly', 'To endure a difficult situation and survive']",
+        "correct": 1,
+        "example_sentence": "His speech was vague, but if you read between the lines, he was hinting at budget cuts."
+    },
+    {
+        "idiom": "Sit on the fence",
+        "meaning": "To remain neutral or undecided",
+        "meaning_ko": "중립적인 태도를 취하다",
+        "options": "['To make people feel comfortable in a social setting', 'Go through many challenges to achieve something', 'To remain neutral or undecided', 'In a risky situation']",
+        "correct": 2,
+        "example_sentence": "During the debate on climate change policies, the senator chose to sit on the fence rather than take a clear stance, fearing backlash from both sides of the argument."
+    },
+    {
+        "idiom": "Throw in the towel",
+        "meaning": "To give up",
+        "meaning_ko": "포기하다",
+        "options": "['Start something with great energy and enthusiasm', 'To give up', 'To pass away', 'Understand how something is done']",
+        "correct": 1,
+        "example_sentence": "After struggling with the project for months, he finally threw in the towel."
+    },
+    {
+        "idiom": "Up in the air",
+        "meaning": "Uncertain or undecided",
+        "meaning_ko": "미정인 상태",
+        "options": "['Speak frankly, even if it’s unpleasant', 'Immediately, without hesitation', 'Uncertain or undecided', 'A small part of a much bigger problem']",
+        "correct": 2,
+        "example_sentence": "Our travel plans are still up in the air because we haven't received confirmation from the airline."
+    },
+    {
+        "idiom": "Water under the bridge",
+        "meaning": "Past problems no longer important",
+        "meaning_ko": "이미 지나간 일",
+        "options": "['At the last possible moment', 'To pass away', 'To watch carefully or monitor closely', 'Past problems no longer important']",
+        "correct": 3,
+        "example_sentence": "They had a big argument last year, but it’s all water under the bridge now."
+    },
+    {
+        "idiom": "When pigs fly",
+        "meaning": "Something that will never happen",
+        "meaning_ko": "절대 일어나지 않을 일",
+        "options": "['Something that will never happen', 'Fully listening', 'To have more important things to do', 'To argue against something for the sake of discussion']",
+        "correct": 0,
+        "example_sentence": "He said he would stop procrastinating and study every day, but that will happen when pigs fly."
+    },
+    {
+        "idiom": "Your guess is as good as mine",
+        "meaning": "I have no idea",
+        "meaning_ko": "나도 전혀 모르겠다",
+        "options": "['I have no idea', 'Someone who argues against something to test its validity', 'Behaving in a crazy or unpredictable way', 'A hidden and embarrassing secret']",
+        "correct": 0,
+        "example_sentence": "Do you know when the professor will return our test results? Your guess is as good as mine."
+    },
+    {
+        "idiom": "The last straw",
+        "meaning": "The final problem that makes a situation unbearable",
+        "meaning_ko": "참을 수 없는 마지막 결정타",
+        "options": "['Generally speaking', 'In a risky situation', 'Create a situation full of complications', 'The final problem that makes a situation unbearable']",
+        "correct": 3,
+        "example_sentence": "Being late again was the last straw, so the manager finally decided to fire him."
+    },
+    {
+        "idiom": "Rule of thumb",
+        "meaning": "A general guideline based on experience",
+        "meaning_ko": "경험에 기반한 일반적인 원칙",
+        "options": "['To start something with energy and enthusiasm', 'Start from the beginning', 'From the beginning', 'A general guideline based on experience']",
+        "correct": 3,
+        "example_sentence": "A good rule of thumb is to read each question carefully before answering it on the TOEFL exam."
+    },
+    {
+        "idiom": "Pull yourself together",
+        "meaning": "To calm down and behave normally",
+        "meaning_ko": "진정하고 평정을 되찾다",
+        "options": "['To start over from the beginning', 'To calm down and behave normally', 'Accidentally get rid of something valuable', 'A reason for someone’s strange behavior']",
+        "correct": 1,
+        "example_sentence": "Even though she was nervous before her TOEFL speaking test, she took a deep breath and pulled herself together."
+    },
+    {
+        "idiom": "The ball is in your court",
+        "meaning": "It is up to you to make a decision",
+        "meaning_ko": "이제 결정을 내릴 차례다",
+        "options": "['To ignore someone', 'In a straight line (used for measuring distance)', 'It is up to you to make a decision', 'Go out and have a lively celebration']",
+        "correct": 2,
+        "example_sentence": "I have given you all the details about the two universities. Now, the ball is in your court."
+    },
+    {
+        "idiom": "Break a leg",
+        "meaning": "Good luck",
+        "meaning_ko": "행운을 빈다",
+        "options": "['Good luck', 'Give up something bad for you', 'To watch carefully or monitor closely', 'Increase the stakes or demands']",
+        "correct": 0,
+        "example_sentence": "Before the TOEFL exam, my friend told me, 'Break a leg!'"
+    },
+    {
+        "idiom": "Burn bridges",
+        "meaning": "To destroy relationships or opportunities",
+        "meaning_ko": "관계를 끊고 되돌릴 수 없게 만들다",
+        "options": "['To destroy relationships or opportunities', 'Past problems no longer important', 'To argue against something for the sake of discussion', 'Confront a difficult situation boldly']",
+        "correct": 0,
+        "example_sentence": "Quitting his job without notice burned his bridges with his former employer."
+    },
+    {
+        "idiom": "Jump the gun",
+        "meaning": "To do something too soon or prematurely",
+        "meaning_ko": "성급하게 행동하다",
+        "options": "[\"To take credit for someone else's work or idea\", 'To do something too soon or prematurely', 'To remain neutral or undecided', 'Looking in the wrong place']",
+        "correct": 1,
+        "example_sentence": "He jumped the gun and submitted his essay before checking for errors."
+    },
+    {
+        "idiom": "Throw caution to the wind",
+        "meaning": "To take a risk without worrying about the consequences",
+        "meaning_ko": "위험을 무릅쓰다",
+        "options": "['To take a risk without worrying about the consequences', 'Not drawing attention to oneself', 'Hold a grudge or be easily offended', 'Don’t be upset about something that has already happened']",
+        "correct": 0,
+        "example_sentence": "She threw caution to the wind and applied for the scholarship even though she wasn’t sure she would get it."
+    },
+    {
+        "idiom": "Back to the drawing board",
+        "meaning": "To start over from the beginning",
+        "meaning_ko": "처음부터 다시 시작하다",
+        "options": "['Very close in competition', 'Tell me what you are thinking', 'Good luck', 'To start over from the beginning']",
+        "correct": 3,
+        "example_sentence": "His essay was full of mistakes, so he had to go back to the drawing board and rewrite it."
+    },
+    {
+        "idiom": "Hit the road",
+        "meaning": "To leave a place and start traveling",
+        "meaning_ko": "여행을 시작하다, 출발하다",
+        "options": "['Something that will never happen', 'To leave a place and start traveling', 'Set a limit on what is acceptable', 'To ignore someone']",
+        "correct": 1,
+        "example_sentence": "We packed our bags and hit the road early in the morning to get to the test center on time."
+    },
+    {
+        "idiom": "Get out of hand",
+        "meaning": "To become uncontrollable",
+        "meaning_ko": "통제할 수 없게 되다",
+        "options": "['A little-known person or thing that emerges to prominence', 'To become uncontrollable', 'A secret advantage or resource', 'At the last possible moment']",
+        "correct": 1,
+        "example_sentence": "The class discussion got out of hand when everyone started talking at once."
+    },
+    {
+        "idiom": "Bite off more than you can chew",
+        "meaning": "To take on too much responsibility",
+        "meaning_ko": "감당할 수 없는 일을 하다",
+        "options": "['Appearances can be deceiving', 'To take on too much responsibility', \"Someone who talks tough but doesn't act tough\", 'Immediately, without hesitation']",
+        "correct": 1,
+        "example_sentence": "She took five advanced courses this semester and quickly realized she had bitten off more than she could chew."
+    },
+    {
+        "idiom": "Play devil’s advocate",
+        "meaning": "To argue against something for the sake of discussion",
+        "meaning_ko": "일부러 반대 입장을 취하다",
+        "options": "['To do something too soon or prematurely', 'To argue against something for the sake of discussion', 'Be the first to criticize someone', 'To be mistaken or misguided']",
+        "correct": 1,
+        "example_sentence": "During the debate, he played devil’s advocate to make the discussion more interesting."
+    },
+    {
+        "idiom": "Kick the bucket",
+        "meaning": "To pass away",
+        "meaning_ko": "죽다",
+        "options": "['To have more important things to do', 'To be free from blame or responsibility', 'To pass away', 'To get to the point without unnecessary details']",
+        "correct": 2,
+        "example_sentence": "The novel we read in class was about an old man who was preparing to kick the bucket."
+    },
+    {
+        "idiom": "Hit the jackpot",
+        "meaning": "To achieve great success or win a lot of money",
+        "meaning_ko": "대성공을 거두다",
+        "options": "['To achieve great success or win a lot of money', 'To avoid causing trouble by not bringing up past conflicts', 'Overwhelmed by emotions', 'To make a bad situation worse']",
+        "correct": 0,
+        "example_sentence": "She felt like she hit the jackpot when she received a full scholarship to study abroad."
+    },
+    {
+        "idiom": "Break new ground",
+        "meaning": "To do something innovative or pioneering",
+        "meaning_ko": "새로운 영역을 개척하다",
+        "options": "['To take a risk without worrying about the consequences', 'To do something innovative or pioneering', 'Not drawing attention to oneself', 'What you do is more important than what you say']",
+        "correct": 1,
+        "example_sentence": "His research on climate change broke new ground in the field of environmental science."
+    },
+    {
+        "idiom": "Keep an eye on",
+        "meaning": "To watch carefully or monitor closely",
+        "meaning_ko": "주의 깊게 살피다",
+        "options": "['To be free from blame or responsibility', 'An unnecessary extra person or thing', \"Someone who talks tough but doesn't act tough\", 'To watch carefully or monitor closely']",
+        "correct": 3,
+        "example_sentence": "The professor told us to keep an eye on the latest trends in artificial intelligence for our research paper."
+    },
+    {
+        "idiom": "Spill over",
+        "meaning": "To extend beyond the original limits",
+        "meaning_ko": "넘쳐 흐르다",
+        "options": "['To become extremely angry', 'To extend beyond the original limits', 'Try something hopeless out of desperation', 'Go straight toward something']",
+        "correct": 1,
+        "example_sentence": "The economic crisis in one country can spill over into neighboring countries."
+    },
+    {
+        "idiom": "Jump ship",
+        "meaning": "To leave a situation suddenly, especially in crisis",
+        "meaning_ko": "어려운 상황에서 떠나다",
+        "options": "['To have experience or achievement in something', 'To leave a situation suddenly, especially in crisis', 'Immediately, without hesitation', 'To calm down and behave normally']",
+        "correct": 1,
+        "example_sentence": "When the startup company began to fail, many employees jumped ship and found new jobs."
+    },
+    {
+        "idiom": "Give someone the cold shoulder",
+        "meaning": "To ignore someone intentionally",
+        "meaning_ko": "누군가를 쌀쌀맞게 대하다",
+        "options": "['Going beyond what is normal or expected', 'To be mistaken or misguided', 'To ignore someone intentionally', 'What you do is more important than what you say']",
+        "correct": 2,
+        "example_sentence": "She gave him the cold shoulder after he forgot her birthday."
+    },
+    {
+        "idiom": "Play it by ear",
+        "meaning": "To improvise rather than plan ahead",
+        "meaning_ko": "즉흥적으로 하다",
+        "options": "['Reverse a situation to one’s advantage', 'To take a risk without worrying about the consequences', 'Forget past arguments or problems', 'To improvise rather than plan ahead']",
+        "correct": 3,
+        "example_sentence": "During the debate, she decided to play it by ear and respond naturally to the opponent's arguments."
+    },
+    {
+        "idiom": "Throw someone under the bus",
+        "meaning": "To betray someone for personal gain",
+        "meaning_ko": "남을 희생시키다",
+        "options": "['Tell me what you are thinking', 'To betray someone for personal gain', 'To achieve great success or win a lot of money', 'Forget past arguments or problems']",
+        "correct": 1,
+        "example_sentence": "When the project failed, the manager threw his assistant under the bus to avoid blame."
+    },
+    {
+        "idiom": "Weather the storm",
+        "meaning": "To endure a difficult situation and survive",
+        "meaning_ko": "어려움을 견디다",
+        "options": "['Go out and have a lively celebration', 'To ignore someone intentionally', 'Faced with two bad options', 'To endure a difficult situation and survive']",
+        "correct": 3,
+        "example_sentence": "Despite financial difficulties, the company was able to weather the storm and recover successfully."
+    },
+    {
+        "idiom": "Turn over a new leaf",
+        "meaning": "To start fresh and improve one’s behavior",
+        "meaning_ko": "새 사람이 되다",
+        "options": "['To pass away', 'Be well prepared or organized', 'To destroy relationships or opportunities', 'To start fresh and improve one’s behavior']",
+        "correct": 3,
+        "example_sentence": "After struggling in school, Jake decided to turn over a new leaf and improve his study habits."
+    },
+    {
+        "idiom": "Call the shots",
+        "meaning": "To make important decisions",
+        "meaning_ko": "결정을 내리다",
+        "options": "['To endure a painful situation bravely', 'To make important decisions', 'To regret something that cannot be changed', 'People without experience or knowledge act impulsively']",
+        "correct": 1,
+        "example_sentence": "As the team leader, she is the one who calls the shots during meetings."
+    },
+    {
+        "idiom": "Cry over spilled milk",
+        "meaning": "To regret something that cannot be changed",
+        "meaning_ko": "이미 지나간 일을 후회하다",
+        "options": "['To regret something that cannot be changed', 'Generally speaking', 'In good physical health', 'Ignore or hide a problem']",
+        "correct": 0,
+        "example_sentence": "There's no point in crying over spilled milk; we should focus on finding a solution."
+    },
+    {
+        "idiom": "Hit the ceiling",
+        "meaning": "To become extremely angry",
+        "meaning_ko": "몹시 화내다",
+        "options": "['Increase the stakes or demands', 'To risk everything on a single opportunity', 'To stop working for the day', 'To become extremely angry']",
+        "correct": 3,
+        "example_sentence": "When he saw the damage to his car, he hit the ceiling in anger."
+    },
+    {
+        "idiom": "Ace up one's sleeve",
+        "meaning": "A secret advantage or resource",
+        "meaning_ko": "비장의 무기",
+        "options": "['A secret advantage or resource', 'Very close in competition', 'To accidentally reveal a secret', 'To adopt a popular activity or trend']",
+        "correct": 0,
+        "example_sentence": "The lawyer had an ace up his sleeve—new evidence that would change the case completely."
+    },
+    {
+        "idiom": "All bark and no bite",
+        "meaning": "Someone who talks tough but doesn't act tough",
+        "meaning_ko": "말만 하고 실천하지 않다",
+        "options": "['To avoid responsibility by shifting it to someone else', \"Someone who talks tough but doesn't act tough\", 'Appearances can be deceiving', 'Ignore or hide a problem']",
+        "correct": 1,
+        "example_sentence": "He threatens to fire employees but never actually does—he’s all bark and no bite."
+    },
+    {
+        "idiom": "As the crow flies",
+        "meaning": "In a straight line (used for measuring distance)",
+        "meaning_ko": "직선 거리로",
+        "options": "['Try something hopeless out of desperation', 'To make important decisions', 'To regret something that cannot be changed', 'In a straight line (used for measuring distance)']",
+        "correct": 3,
+        "example_sentence": "The two cities are 50 miles apart as the crow flies, but the road trip is much longer."
+    },
+    {
+        "idiom": "Batten down the hatches",
+        "meaning": "Prepare for a difficult situation",
+        "meaning_ko": "어려움에 대비하다",
+        "options": "['Prepare for a difficult situation', 'To ignore someone', 'To reveal a secret', 'To argue against something for the sake of discussion']",
+        "correct": 0,
+        "example_sentence": "With the storm approaching, the residents had to batten down the hatches and prepare for the worst."
+    },
+    {
+        "idiom": "Between a rock and a hard place",
+        "meaning": "Faced with two bad options",
+        "meaning_ko": "진퇴양난에 빠지다",
+        "options": "['To understand the hidden meaning of something', 'To start fresh and improve one’s behavior', 'To ignore something intentionally', 'Faced with two bad options']",
+        "correct": 3,
+        "example_sentence": "She was caught between a rock and a hard place—choosing between her dream job and staying close to family."
+    },
+    {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively and become exhausted",
+        "meaning_ko": "무리하게 일하다, 밤낮없이 일하다",
+        "options": "['Go straight toward something', 'To understand the hidden meaning', 'Past problems no longer important', 'To work excessively and become exhausted']",
+        "correct": 3,
+        "example_sentence": "She has been burning the candle at both ends, working late nights and early mornings."
+    },
+    {
+        "idiom": "By and large",
+        "meaning": "Generally speaking",
+        "meaning_ko": "대체로",
+        "options": "['To overwork yourself by doing too many things', 'Experience what you have given to others', 'To work excessively and become exhausted', 'Generally speaking']",
+        "correct": 3,
+        "example_sentence": "By and large, the new policy has been well received by the employees."
+    },
+    {
+        "idiom": "Call a spade a spade",
+        "meaning": "Speak frankly, even if it’s unpleasant",
+        "meaning_ko": "사실 그대로 말하다",
+        "options": "['To have experience or achievement in something', 'To miss an opportunity', 'To avoid responsibility by shifting it to someone else', 'Speak frankly, even if it’s unpleasant']",
+        "correct": 3,
+        "example_sentence": "Let's call a spade a spade – this project was poorly managed from the beginning."
+    },
+    {
+        "idiom": "Cast the first stone",
+        "meaning": "Be the first to criticize someone",
+        "meaning_ko": "비판을 시작하다",
+        "options": "['In good physical health', 'Be the first to criticize someone', 'To use up all of one’s money', 'To adopt a popular trend']",
+        "correct": 1,
+        "example_sentence": "Before you cast the first stone, consider your own mistakes."
+    },
+    {
+        "idiom": "Cold turkey",
+        "meaning": "Quit something abruptly and completely",
+        "meaning_ko": "갑자기 완전히 끊다",
+        "options": "['To take on too much responsibility', 'Quit something abruptly and completely', \"Someone who talks tough but doesn't act tough\", 'In a straight line (used for measuring distance)']",
+        "correct": 1,
+        "example_sentence": "He quit smoking cold turkey and hasn't touched a cigarette since."
+    },
+    {
+        "idiom": "Cook the books",
+        "meaning": "Manipulate financial records illegally",
+        "meaning_ko": "회계를 조작하다",
+        "options": "['To make people feel comfortable in a social setting', 'Manipulate financial records illegally', 'Alert and efficient', 'Directly from the source']",
+        "correct": 1,
+        "example_sentence": "The company was caught trying to cook the books to hide its financial losses."
+    },
+    {
+        "idiom": "Dark horse",
+        "meaning": "A little-known person or thing that emerges to prominence",
+        "meaning_ko": "의외의 강자",
+        "options": "['To become very angry suddenly', 'A little-known person or thing that emerges to prominence', 'To ignore someone intentionally', 'What you do is more important than what you say']",
+        "correct": 1,
+        "example_sentence": "Despite being a dark horse, she won the competition with ease."
+    },
+    {
+        "idiom": "Devil’s advocate",
+        "meaning": "Someone who argues against something to test its validity",
+        "meaning_ko": "일부러 반대 입장을 취하는 사람",
+        "options": "['In good physical health', 'Experience what you have given to others', 'To adopt a popular activity or trend', 'Someone who argues against something to test its validity']",
+        "correct": 3,
+        "example_sentence": "He played devil’s advocate in the debate to challenge the opposing team's arguments."
+    },
+    {
+        "idiom": "Don’t count your chickens before they hatch",
+        "meaning": "Don’t assume something will happen before it actually does",
+        "meaning_ko": "김칫국부터 마시지 마라",
+        "options": "['Someone is giving an extremely angry look', 'To regret something that cannot be changed', 'Don’t assume something will happen before it actually does', 'The final problem that makes a situation unbearable']",
+        "correct": 2,
+        "example_sentence": "She was already planning how to spend her bonus before receiving it, but I told her not to count her chickens before they hatch."
+    },
+    {
+        "idiom": "Drag one’s feet",
+        "meaning": "To act slowly or reluctantly",
+        "meaning_ko": "미루다",
+        "options": "['To regret something that cannot be changed', 'To act slowly or reluctantly', 'To understand the hidden meaning', 'Experience what you have given to others']",
+        "correct": 1,
+        "example_sentence": "The committee kept dragging their feet on making a decision, delaying the project for months."
+    },
+    {
+        "idiom": "Feather in one’s cap",
+        "meaning": "An achievement to be proud of",
+        "meaning_ko": "자랑거리",
+        "options": "['It is your decision or responsibility now', 'A general guideline based on experience', 'An achievement to be proud of', 'Prepare for a difficult situation']",
+        "correct": 2,
+        "example_sentence": "Winning the international science fair was a real feather in her cap."
+    },
+    {
+        "idiom": "Fifth wheel",
+        "meaning": "An unnecessary extra person or thing",
+        "meaning_ko": "쓸모없는 존재",
+        "options": "['To exaggerate a small problem', 'Going beyond what is normal or expected', 'To make people feel comfortable in a social setting', 'An unnecessary extra person or thing']",
+        "correct": 3,
+        "example_sentence": "I felt like a fifth wheel when I joined my friends on their romantic date."
+    },
+    {
+        "idiom": "Flash in the pan",
+        "meaning": "Something that starts well but fails quickly",
+        "meaning_ko": "반짝 성공",
+        "options": "['Something that starts well but fails quickly', 'Directly from the source', 'To do something too soon or prematurely', 'Raining very heavily']",
+        "correct": 0,
+        "example_sentence": "His initial success was just a flash in the pan; he never produced another hit song."
+    },
+    {
+        "idiom": "Fools rush in",
+        "meaning": "People without experience or knowledge act impulsively",
+        "meaning_ko": "경솔한 행동을 하다",
+        "options": "['Looking in the wrong place', 'Accidentally get rid of something valuable', 'Overwhelmed by emotions', 'People without experience or knowledge act impulsively']",
+        "correct": 3,
+        "example_sentence": "Fools rush in where angels fear to tread, so think carefully before making a decision."
+    },
+    {
+        "idiom": "Full of hot air",
+        "meaning": "Talking a lot but not making sense",
+        "meaning_ko": "허풍을 떨다",
+        "options": "['Forget past arguments or problems', 'Give up something bad for you', 'To make an extra effort', 'Talking a lot but not making sense']",
+        "correct": 3,
+        "example_sentence": "The politician was full of hot air, making promises he could never keep."
+    },
+    {
+        "idiom": "Get a taste of your own medicine",
+        "meaning": "Experience what you have given to others",
+        "meaning_ko": "자기가 한 대로 돌려받다",
+        "options": "['Experience what you have given to others', 'You are unable to do anything about a situation', 'A secret advantage or resource', 'Manipulate financial records illegally']",
+        "correct": 0,
+        "example_sentence": "After years of playing pranks on others, Jake finally got a taste of his own medicine when his coworkers tricked him."
+    },
+    {
+        "idiom": "Get ducks in a row",
+        "meaning": "Be well prepared or organized",
+        "meaning_ko": "정리를 잘하다",
+        "options": "['The final problem that makes a situation unbearable', 'Unexpected and surprising', 'Just barely', 'Be well prepared or organized']",
+        "correct": 3,
+        "example_sentence": "Before launching the new project, the manager ensured that the team had all their ducks in a row."
+    },
+    {
+        "idiom": "Go down in flames",
+        "meaning": "Fail spectacularly",
+        "meaning_ko": "완전히 실패하다",
+        "options": "['Reverse a situation to one’s advantage', 'Fail spectacularly', 'A hidden and embarrassing secret', 'The final problem that leads to failure']",
+        "correct": 1,
+        "example_sentence": "Despite months of preparation, the company's expansion plan went down in flames due to poor market research."
+    },
+    {
+        "idiom": "Go out on a limb",
+        "meaning": "Take a risk",
+        "meaning_ko": "위험을 무릅쓰다",
+        "options": "['To give up', 'Take a risk', 'To do something innovative or pioneering', 'To understand the hidden meaning of something']",
+        "correct": 1,
+        "example_sentence": "She went out on a limb to defend her colleague, even when everyone else doubted him."
+    },
+    {
+        "idiom": "Grasp at straws",
+        "meaning": "Try something hopeless out of desperation",
+        "meaning_ko": "막연한 희망을 품다",
+        "options": "['A small part of a much bigger problem', \"To take credit for someone else's work or idea\", 'To ignore someone', 'Try something hopeless out of desperation']",
+        "correct": 3,
+        "example_sentence": "With no solid evidence, the lawyer seemed to be grasping at straws to win the case."
+    },
+    {
+        "idiom": "Have a chip on one’s shoulder",
+        "meaning": "Hold a grudge or be easily offended",
+        "meaning_ko": "짜증을 잘 내다",
+        "options": "['Hold a grudge or be easily offended', 'To study very hard', 'Past problems no longer important', 'To have experience or achievement in something']",
+        "correct": 0,
+        "example_sentence": "Ever since he was passed over for the promotion, he has had a chip on his shoulder and refuses to cooperate with his colleagues."
+    },
+    {
+        "idiom": "Have one’s work cut out",
+        "meaning": "Face a difficult task",
+        "meaning_ko": "어려운 과제에 직면하다",
+        "options": "['To risk everything on a single opportunity', 'Overwhelmed by emotions', 'Face a difficult task', 'Prepare for a difficult situation']",
+        "correct": 2,
+        "example_sentence": "With only two weeks left before the final exams, she has her work cut out if she wants to pass with good grades."
+    },
+    {
+        "idiom": "Head in the clouds",
+        "meaning": "Not paying attention to what’s happening around",
+        "meaning_ko": "비현실적인 생각을 하다",
+        "options": "['Don’t be upset about something that has already happened', 'Good luck', 'Not paying attention to what’s happening around', 'Quit something abruptly and completely']",
+        "correct": 2,
+        "example_sentence": "He always has his head in the clouds during meetings, missing important details."
+    },
+    {
+        "idiom": "Hit the ground running",
+        "meaning": "Start something with great energy and enthusiasm",
+        "meaning_ko": "빠르게 시작하다",
+        "options": "['To give up', 'To try to finish something within a limited time', 'Experience what you have given to others', 'Start something with great energy and enthusiasm']",
+        "correct": 3,
+        "example_sentence": "The new manager hit the ground running by implementing major changes on his first day."
+    },
+    {
+        "idiom": "If looks could kill",
+        "meaning": "Someone is giving an extremely angry look",
+        "meaning_ko": "매우 날카로운 눈빛을 보내다",
+        "options": "['Take credit for someone else’s idea', 'Understand how something is done', 'Someone is giving an extremely angry look', 'To avoid talking about something directly']",
+        "correct": 2,
+        "example_sentence": "She didn't say a word, but if looks could kill, he would be in trouble."
+    },
+    {
+        "idiom": "Jump through hoops",
+        "meaning": "Go through many challenges to achieve something",
+        "meaning_ko": "까다로운 과정을 거치다",
+        "options": "['To endure a difficult situation and survive', 'Create a situation full of complications', 'Go through many challenges to achieve something', 'Someone is giving an extremely angry look']",
+        "correct": 2,
+        "example_sentence": "In order to get a visa, international students often have to jump through hoops with endless paperwork and interviews."
+    },
+    {
+        "idiom": "Kick the habit",
+        "meaning": "Give up something bad for you",
+        "meaning_ko": "나쁜 습관을 끊다",
+        "options": "['Give up something bad for you', 'To not take something too seriously', 'Fully listening', 'Don’t assume something will happen before it actually does']",
+        "correct": 0,
+        "example_sentence": "After years of smoking, John finally managed to kick the habit by switching to nicotine patches."
+    },
+    {
+        "idiom": "Know the ropes",
+        "meaning": "Understand how something is done",
+        "meaning_ko": "요령을 알다, 경험이 많다",
+        "options": "['Try something hopeless out of desperation', 'Understand how something is done', 'To adopt a popular trend', 'Being in a difficult situation where both choices are bad']",
+        "correct": 1,
+        "example_sentence": "It took me a few months to get used to the company’s workflow, but now I know the ropes and can work efficiently."
+    },
+    {
+        "idiom": "Last straw",
+        "meaning": "The final problem that leads to failure",
+        "meaning_ko": "더 이상 참을 수 없는 마지막 사건",
+        "options": "['The final problem that leads to failure', 'Set a limit on what is acceptable', 'Appearances can be deceiving', 'Manipulate financial records illegally']",
+        "correct": 0,
+        "example_sentence": "Failing the final exam was the last straw; he decided to drop out of the course."
+    },
+    {
+        "idiom": "Let bygones be bygones",
+        "meaning": "Forget past arguments or problems",
+        "meaning_ko": "과거는 잊어버리다",
+        "options": "['Be in a risky or delicate situation', 'Forget past arguments or problems', 'To avoid responsibility by shifting it to someone else', 'It is up to you to make a decision']",
+        "correct": 1,
+        "example_sentence": "After years of conflict, they finally decided to let bygones be bygones and work together."
+    },
+    {
+        "idiom": "Make a beeline for",
+        "meaning": "Go straight toward something",
+        "meaning_ko": "곧장 가다",
+        "options": "['To remain neutral or undecided', 'In a risky situation', 'To joke with someone in a playful way', 'Go straight toward something']",
+        "correct": 3,
+        "example_sentence": "As soon as the store opened, the customers made a beeline for the discounted items."
+    },
+    {
+        "idiom": "Method to the madness",
+        "meaning": "A reason for someone’s strange behavior",
+        "meaning_ko": "겉보기에는 이상하지만 나름의 이유가 있다",
+        "options": "['Overwhelmed by emotions', 'A reason for someone’s strange behavior', 'To describe exactly what is causing a situation', 'Appearances can be deceiving']",
+        "correct": 1,
+        "example_sentence": "At first, his way of organizing things seemed chaotic, but there was a method to his madness."
+    },
+    {
+        "idiom": "Neck and neck",
+        "meaning": "Very close in competition",
+        "meaning_ko": "막상막하",
+        "options": "['Someone who argues against something to test its validity', 'Manipulate financial records illegally', 'Very close in competition', 'Adapt to difficult situations']",
+        "correct": 2,
+        "example_sentence": "The two candidates were neck and neck in the election, making it impossible to predict the winner."
+    },
+    {
+        "idiom": "Off one’s rocker",
+        "meaning": "Behaving in a crazy or unpredictable way",
+        "meaning_ko": "정신이 나간",
+        "options": "['The final problem that makes a situation unbearable', 'Behaving in a crazy or unpredictable way', 'Talking a lot but not making sense', 'Going beyond what is normal or expected']",
+        "correct": 1,
+        "example_sentence": "People thought he was off his rocker when he decided to climb Mount Everest with no prior experience."
+    },
+    {
+        "idiom": "On cloud nine",
+        "meaning": "Extremely happy",
+        "meaning_ko": "매우 행복한",
+        "options": "['Accidentally get rid of something valuable', 'Be in a risky or delicate situation', 'Extremely happy', 'To accidentally reveal a secret']",
+        "correct": 2,
+        "example_sentence": "After receiving the acceptance letter from Harvard, she was on cloud nine for days."
+    },
+    {
+        "idiom": "On the ball",
+        "meaning": "Alert and efficient",
+        "meaning_ko": "기민한, 영리한",
+        "options": "['To ignore someone', 'Alert and efficient', 'A general guideline based on experience', 'Something that starts well but fails quickly']",
+        "correct": 1,
+        "example_sentence": "The new manager is really on the ball; she quickly resolved all the workflow issues."
+    },
+    {
+        "idiom": "Open a can of worms",
+        "meaning": "Create a situation full of complications",
+        "meaning_ko": "문제를 일으키다",
+        "options": "['Hurry up', 'Generally speaking', 'To not take something too seriously', 'Create a situation full of complications']",
+        "correct": 3,
+        "example_sentence": "Bringing up past mistakes in the meeting would just open a can of worms we don’t need to deal with now."
+    },
+    {
+        "idiom": "Out of left field",
+        "meaning": "Unexpected and surprising",
+        "meaning_ko": "예상 밖의",
+        "options": "['Accidentally get rid of something valuable', 'Unexpected and surprising', 'Be well prepared or organized', 'To have experience or achievement in something']",
+        "correct": 1,
+        "example_sentence": "His sudden decision to quit his job came out of left field and shocked everyone in the office."
+    },
+    {
+        "idiom": "Over the moon",
+        "meaning": "Extremely happy and excited",
+        "meaning_ko": "매우 기쁜",
+        "options": "['Extremely happy and excited', 'Fully listening', 'An achievement to be proud of', 'To achieve great success or win a lot of money']",
+        "correct": 0,
+        "example_sentence": "She was over the moon when she received the acceptance letter from her dream university."
+    },
+    {
+        "idiom": "Paint the town red",
+        "meaning": "Go out and have a lively celebration",
+        "meaning_ko": "신나게 즐기다",
+        "options": "['Go straight toward something', 'An unnecessary extra person or thing', 'To destroy relationships or opportunities', 'Go out and have a lively celebration']",
+        "correct": 3,
+        "example_sentence": "After finishing their final exams, the students decided to paint the town red and celebrate all night."
+    },
+    {
+        "idiom": "Play second fiddle",
+        "meaning": "Take a subordinate role",
+        "meaning_ko": "조연 역할을 하다",
+        "options": "['To give up', 'At the last possible moment', 'Take a subordinate role', 'To destroy relationships or opportunities']",
+        "correct": 2,
+        "example_sentence": "Although she was talented, she was tired of playing second fiddle to her more charismatic colleague."
+    },
+    {
+        "idiom": "Pushing the envelope",
+        "meaning": "Going beyond what is normal or expected",
+        "meaning_ko": "한계를 뛰어넘다",
+        "options": "['To avoid responsibility by shifting it to someone else', 'People without experience or knowledge act impulsively', 'Going beyond what is normal or expected', 'To pass away']",
+        "correct": 2,
+        "example_sentence": "The architect is known for pushing the envelope with her innovative building designs."
+    },
+    {
+        "idiom": "Put one’s foot in one’s mouth",
+        "meaning": "Say something embarrassing or inappropriate",
+        "meaning_ko": "실언하다",
+        "options": "['In a straight line (used for measuring distance)', 'Not drawing attention to oneself', 'To reveal a secret', 'Say something embarrassing or inappropriate']",
+        "correct": 3,
+        "example_sentence": "He put his foot in his mouth when he mentioned the company’s layoffs in front of his boss, who had just been fired."
+    },
+    {
+        "idiom": "Raining cats and dogs",
+        "meaning": "Raining very heavily",
+        "meaning_ko": "비가 억수같이 내리다",
+        "options": "['Raining very heavily', 'Unexpected and surprising', 'Be in a risky or delicate situation', 'An unnecessary extra person or thing']",
+        "correct": 0,
+        "example_sentence": "It was raining cats and dogs, so the outdoor event had to be postponed."
+    },
+    {
+        "idiom": "Roll with the punches",
+        "meaning": "Adapt to difficult situations",
+        "meaning_ko": "상황에 적응하다",
+        "options": "['Behaving in a crazy or unpredictable way', 'Try something hopeless out of desperation', 'To make an extra effort', 'Adapt to difficult situations']",
+        "correct": 3,
+        "example_sentence": "Successful entrepreneurs learn to roll with the punches and adapt to changing market conditions."
+    },
+    {
+        "idiom": "See eye to eye",
+        "meaning": "Agree completely",
+        "meaning_ko": "완전히 동의하다",
+        "options": "['Rescued at the last possible moment', 'To have experience or achievement in something', 'Agree completely', 'A small part of a much bigger problem']",
+        "correct": 2,
+        "example_sentence": "Despite their different backgrounds, they see eye to eye on most political issues."
+    },
+    {
+        "idiom": "Shake a leg",
+        "meaning": "Hurry up",
+        "meaning_ko": "서두르다",
+        "options": "['From the beginning', 'A little-known person or thing that emerges to prominence', 'To stop working for the day', 'Hurry up']",
+        "correct": 3,
+        "example_sentence": "Come on, shake a leg! We’ll be late for the show if we don’t leave now."
+    },
+    {
+        "idiom": "Skeleton in the closet",
+        "meaning": "A hidden and embarrassing secret",
+        "meaning_ko": "숨기고 싶은 비밀",
+        "options": "['A general guideline based on experience', 'A hidden and embarrassing secret', 'To make important decisions', 'To avoid talking about something directly']",
+        "correct": 1,
+        "example_sentence": "Every politician has a skeleton in the closet that they hope never gets exposed by the media."
+    },
+    {
+        "idiom": "Spill the beans",
+        "meaning": "Reveal a secret",
+        "meaning_ko": "비밀을 누설하다",
+        "options": "['To forgive and forget past conflicts', 'To avoid causing trouble by not bringing up past conflicts', 'Reveal a secret', 'To adopt a popular activity or trend']",
+        "correct": 2,
+        "example_sentence": "She accidentally spilled the beans about the surprise party before it even started."
+    },
+    {
+        "idiom": "Steal one’s thunder",
+        "meaning": "Take credit for someone else’s idea",
+        "meaning_ko": "남의 공을 가로채다",
+        "options": "['Take credit for someone else’s idea', 'Very expensive', 'A pointless or hopeless pursuit', 'To adopt a popular trend']",
+        "correct": 0,
+        "example_sentence": "He stole my thunder by announcing our engagement before I had the chance to do it myself."
+    },
+    {
+        "idiom": "Straight from the horse’s mouth",
+        "meaning": "Directly from the source",
+        "meaning_ko": "직접 들은 정보",
+        "options": "['You are unable to do anything about a situation', 'Someone who argues against something to test its validity', 'The final problem that leads to failure', 'Directly from the source']",
+        "correct": 3,
+        "example_sentence": "If you don’t believe me, ask the professor yourself. You’ll hear it straight from the horse’s mouth."
+    },
+    {
+        "idiom": "Sweep under the rug",
+        "meaning": "Ignore or hide a problem",
+        "meaning_ko": "문제를 덮어두다",
+        "options": "['To get to the point without unnecessary details', 'Don’t assume something will happen before it actually does', 'Ignore or hide a problem', 'To risk everything on a single opportunity']",
+        "correct": 2,
+        "example_sentence": "Instead of addressing the financial issues, the company tried to sweep them under the rug, leading to a bigger crisis later."
+    },
+    {
+        "idiom": "Take the bull by the horns",
+        "meaning": "Confront a difficult situation boldly",
+        "meaning_ko": "정면으로 맞서다",
+        "options": "['Speak frankly, even if it’s unpleasant', 'To make people feel comfortable in a social setting', 'Say something embarrassing or inappropriate', 'Confront a difficult situation boldly']",
+        "correct": 3,
+        "example_sentence": "She decided to take the bull by the horns and confront her manager about the unfair workload."
+    },
+    {
+        "idiom": "The ball is in your court",
+        "meaning": "It is your decision or responsibility now",
+        "meaning_ko": "이제 결정을 내릴 차례다",
+        "options": "['It is your decision or responsibility now', 'To try to finish something within a limited time', 'To calm down and behave normally', 'Feeling sick or unwell']",
+        "correct": 0,
+        "example_sentence": "I have done everything I can to help you. Now, the ball is in your court."
+    },
+    {
+        "idiom": "Throw in the towel",
+        "meaning": "Give up or surrender",
+        "meaning_ko": "포기하다",
+        "options": "['To have a disagreement or issue with someone', 'The final problem that makes a situation unbearable', 'Give up or surrender', 'Give up something bad for you']",
+        "correct": 2,
+        "example_sentence": "After struggling with the research project for months, he finally threw in the towel and switched topics."
+    },
+    {
+        "idiom": "Throw the baby out with the bathwater",
+        "meaning": "Accidentally get rid of something valuable",
+        "meaning_ko": "소중한 것을 쓸데없이 버리다",
+        "options": "['Behaving in a crazy or unpredictable way', 'Quit something abruptly and completely', 'To avoid causing trouble by not bringing up past conflicts', 'Accidentally get rid of something valuable']",
+        "correct": 3,
+        "example_sentence": "In their rush to improve security, they threw the baby out with the bathwater by eliminating all anonymous submissions, including valuable feedback."
+    },
+    {
+        "idiom": "Tip of the iceberg",
+        "meaning": "A small part of a much bigger problem",
+        "meaning_ko": "빙산의 일각",
+        "options": "['Generally speaking', 'A little-known person or thing that emerges to prominence', 'To argue against something for the sake of discussion', 'A small part of a much bigger problem']",
+        "correct": 3,
+        "example_sentence": "The financial fraud discovered last week was just the tip of the iceberg; investigators suspect a much larger scandal."
+    },
+    {
+        "idiom": "Turn the tables",
+        "meaning": "Reverse a situation to one’s advantage",
+        "meaning_ko": "상황을 역전시키다",
+        "options": "['Give up or surrender', 'Reverse a situation to one’s advantage', 'Feeling sick or unwell', 'In a risky situation']",
+        "correct": 1,
+        "example_sentence": "She turned the tables on her opponent with a strong counterargument during the debate."
+    },
+    {
+        "idiom": "Under the radar",
+        "meaning": "Not drawing attention to oneself",
+        "meaning_ko": "눈에 띄지 않게",
+        "options": "['Going beyond what is normal or expected', 'Not drawing attention to oneself', 'Face a difficult task', 'To overwork yourself by doing too many things']",
+        "correct": 1,
+        "example_sentence": "The small startup operated under the radar for years before suddenly becoming a major player in the industry."
+    },
+    {
+        "idiom": "Up the ante",
+        "meaning": "Increase the stakes or demands",
+        "meaning_ko": "위험을 감수하고 판을 키우다",
+        "options": "['Speak frankly, even if it’s unpleasant', 'To start fresh and improve one’s behavior', 'Increase the stakes or demands', 'Start from the beginning']",
+        "correct": 2,
+        "example_sentence": "The competitor’s new product launch forced the company to up the ante by offering better features and pricing."
+    },
+    {
+        "idiom": "Walk a tightrope",
+        "meaning": "Be in a risky or delicate situation",
+        "meaning_ko": "아슬아슬한 상황에 처하다",
+        "options": "['Be in a risky or delicate situation', 'To accidentally reveal a secret', 'The final problem that makes a situation unbearable', 'To make a bad situation worse']",
+        "correct": 0,
+        "example_sentence": "The diplomat had to walk a tightrope between maintaining good relations with both countries."
+    },
+    {
+        "idiom": "Wild goose chase",
+        "meaning": "A pointless or hopeless pursuit",
+        "meaning_ko": "헛된 추적, 헛수고",
+        "options": "['A pointless or hopeless pursuit', 'What you do is more important than what you say', 'To avoid talking about something directly', 'To use up all of one’s money']",
+        "correct": 0,
+        "example_sentence": "We searched all over the city for the rumored sale, but it turned out to be a wild goose chase."
+    }
+]
