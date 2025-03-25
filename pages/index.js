@@ -64,7 +64,8 @@ export default function Home() {
               display: 'block',
               margin: '10px auto',
               padding: '10px',
-              backgroundColor: selected === i ? '#0070f3' : '#eee'
+              backgroundColor: selected === i ? '#0070f3' : '#eee',
+              color: selected === i ? '#ffffff' : '#000000',
             }}
           >
             {opt}
