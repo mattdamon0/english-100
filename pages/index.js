@@ -29,7 +29,7 @@ export default function Home() {
         correct: current.correct,
         meaning: current.meaning,
         meaning_ko: current.meaning_ko,
-        example_sentence: current.example_sentence
+        example_sentence: current.example_sentence,
       }
     ]);
     setSelected(null);
@@ -38,7 +38,7 @@ export default function Home() {
     setIndex(index + 1);
   };
 
-  const handlePrevious = () => {
+  const handlePrev = () => {
     if (index > 0) {
       setIndex(index - 1);
       setSelected(null);
@@ -48,8 +48,8 @@ export default function Home() {
   };
 
   const handleRestart = () => {
-    const randomIdioms = getRandomIdioms(idioms, 20);
-    setQuestions(randomIdioms);
+    const newQuestions = getRandomIdioms(idioms, 20);
+    setQuestions(newQuestions);
     setIndex(0);
     setSelected(null);
     setShowHint(false);
@@ -57,36 +57,47 @@ export default function Home() {
     setResults([]);
   };
 
-  if (questions.length === 0) return <p>Loading...</p>;
+  if (questions.length === 0) return <p style={{ textAlign: 'center', marginTop: '50px' }}>Loading...</p>;
 
   if (index >= questions.length) {
     const correct = results.filter(r => r.selected === r.correct).length;
-    const incorrect = results.filter(r => r.selected !== r.correct);
+    const incorrectAnswers = results.filter(r => r.selected !== r.correct);
+
     return (
-      <div style={{ padding: '20px', minHeight: '100vh', position: 'relative' }}>
+      <div style={{ padding: '20px', textAlign: 'center' }}>
         <h2>Quiz Finished!</h2>
         <p>Score: {correct} / {results.length}</p>
 
-        {incorrect.length > 0 && (
+        {incorrectAnswers.length > 0 && (
           <>
             <h3>Incorrect Answers:</h3>
-            {incorrect.map((r, i) => (
-              <div key={i} style={{ marginBottom: '10px' }}>
-                <strong>{r.idiom}</strong><br />
-                Correct: {r.meaning} ({r.meaning_ko})<br />
-                Your Answer: {r.selected !== null ? r.selected + 1 : 'None'}
+            {incorrectAnswers.map((item, i) => (
+              <div key={i} style={{ marginBottom: '10px', border: '1px solid #ddd', padding: '10px' }}>
+                <strong>{item.idiom}</strong><br />
+                <span>Answer: {item.meaning}</span><br />
+                <span style={{ color: '#0070f3' }}>{item.meaning_ko}</span><br />
+                <span style={{ fontSize: '14px' }}>{item.example_sentence}</span>
               </div>
             ))}
           </>
         )}
 
-        <button onClick={handleRestart} style={{ marginTop: '20px', padding: '12px 24px', fontSize: '16px' }}>
-          Try New Quiz
+        <button
+          onClick={handleRestart}
+          style={{
+            marginTop: '20px',
+            padding: '12px 24px',
+            fontSize: '16px',
+            backgroundColor: '#28a745',
+            color: 'white',
+            border: 'none',
+            borderRadius: '5px'
+          }}
+        >
+          Try Another 20
         </button>
 
-        <footer style={{ marginTop: '40px', textAlign: 'center', color: '#aaa', fontSize: '14px' }}>
-          © 2025 Matt Damon
-        </footer>
+        <p style={{ marginTop: '30px', fontSize: '14px', color: '#888' }}>© Matt Damon</p>
       </div>
     );
   }
@@ -94,9 +105,15 @@ export default function Home() {
   const current = questions[index];
 
   return (
-    <div style={{ padding: '20px', minHeight: '100vh', position: 'relative' }}>
-      <h2>{index + 1}. {current.idiom}</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+    <div style={{ padding: '20px' }}>
+      <h2 style={{ textAlign: 'center' }}>{index + 1}. {current.idiom}</h2>
+
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '10px',
+        marginTop: '20px'
+      }}>
         {current.options.map((opt, i) => (
           <button
             key={i}
@@ -105,7 +122,10 @@ export default function Home() {
               padding: '10px',
               fontSize: '14px',
               backgroundColor: selected === i ? '#0070f3' : '#eee',
-              color: selected === i ? '#fff' : '#000'
+              color: selected === i ? 'white' : 'black',
+              border: 'none',
+              borderRadius: '5px',
+              wordWrap: 'break-word'
             }}
           >
             {opt}
@@ -114,23 +134,29 @@ export default function Home() {
       </div>
 
       <div style={{
-        marginTop: '30px',
         display: 'flex',
         justifyContent: 'space-between',
-        alignItems: 'center',
-        gap: '20px',
-        flexWrap: 'wrap'
+        marginTop: '20px',
+        gap: '10px'
       }}>
-        <div style={{ flex: '1', textAlign: 'left' }}>
-          <button onClick={handlePrevious} style={{ padding: '12px 20px', fontSize: '16px' }}>Back</button>
-        </div>
-        <div style={{ flex: '1', textAlign: 'center' }}>
-          <button onClick={() => setShowHint(true)} style={{ padding: '12px 20px', fontSize: '16px', marginRight: '10px' }}>Hint</button>
-          <button onClick={() => setShowExample(true)} style={{ padding: '12px 20px', fontSize: '16px' }}>Example</button>
-        </div>
-        <div style={{ flex: '1', textAlign: 'right' }}>
-          <button onClick={handleNext} disabled={selected === null} style={{ padding: '12px 20px', fontSize: '16px' }}>Next</button>
-        </div>
+        <button onClick={handlePrev} style={{ flex: 1, padding: '12px', fontSize: '16px' }}>Previous</button>
+        <button onClick={() => setShowHint(true)} style={{ flex: 1, padding: '12px', fontSize: '16px' }}>Hint</button>
+        <button onClick={() => setShowExample(true)} style={{ flex: 1, padding: '12px', fontSize: '16px' }}>Example</button>
+        <button
+          onClick={handleNext}
+          disabled={selected === null}
+          style={{
+            flex: 1,
+            padding: '12px',
+            fontSize: '16px',
+            backgroundColor: selected === null ? '#ccc' : '#0070f3',
+            color: 'white',
+            border: 'none',
+            borderRadius: '5px'
+          }}
+        >
+          Next
+        </button>
       </div>
 
       {showHint && (
@@ -139,16 +165,15 @@ export default function Home() {
           <span style={{ color: '#0070f3' }}>{current.meaning_ko}</span>
         </p>
       )}
-
       {showExample && (
-        <p style={{ marginTop: '15px', fontStyle: 'italic', color: '#555' }}>
+        <p style={{ marginTop: '10px', fontSize: '14px', fontStyle: 'italic', color: '#555' }}>
           {current.example_sentence}
         </p>
       )}
 
-      <footer style={{ marginTop: '40px', textAlign: 'center', color: '#aaa', fontSize: '14px' }}>
-        © 2025 Matt Damon
-      </footer>
+      <p style={{ marginTop: '40px', fontSize: '14px', textAlign: 'center', color: '#888' }}>
+        © Matt Damon
+      </p>
     </div>
   );
 }
