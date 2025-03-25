@@ -46,19 +46,6 @@ export default function Home() {
       <div style={{ padding: '20px' }}>
         <h2>Quiz Finished!</h2>
         <p>Score: {correct} / {results.length}</p>
-        <ul>
-          {results.map((res, i) => (
-            <li key={i} style={{ marginBottom: '10px' }}>
-              <strong>{res.idiom}</strong> - {res.meaning}
-              <br />
-              {res.meaning_ko && <span style={{ color: 'blue' }}>({res.meaning_ko})</span>}
-              <br />
-              {res.example_sentence && (
-                <span style={{ fontStyle: 'italic' }}>Ex: {res.example_sentence}</span>
-              )}
-            </li>
-          ))}
-        </ul>
       </div>
     );
   }
@@ -68,38 +55,35 @@ export default function Home() {
   return (
     <div style={{ padding: '20px' }}>
       <h2>{index + 1}. {current.idiom}</h2>
-      {Array.isArray(current.options) && current.options.map((opt, i) => (
-        <button
-          key={i}
-          onClick={() => setSelected(i)}
-          style={{
-            display: 'block',
-            margin: '10px auto',
-            padding: '10px',
-            backgroundColor: selected === i ? '#0070f3' : '#eee'
-          }}
-        >
-          {opt}
-        </button>
-      ))}
-      
+      {Array.isArray(current.options) &&
+        current.options.map((opt, i) => (
+          <button
+            key={i}
+            onClick={() => setSelected(i)}
+            style={{
+              display: 'block',
+              margin: '10px auto',
+              padding: '10px',
+              backgroundColor: selected === i ? '#0070f3' : '#eee'
+            }}
+          >
+            {opt}
+          </button>
+        ))}
       <div style={{ marginTop: '10px' }}>
         <button onClick={() => setShowHint(true)} style={{ marginRight: '10px' }}>Show Hint</button>
         <button onClick={() => setShowExample(true)}>Show Example</button>
       </div>
-
       {showHint && (
         <p style={{ marginTop: '10px' }}>
           {current.meaning} ({current.meaning_ko})
         </p>
       )}
-
       {showExample && current.example_sentence && (
-        <p style={{ marginTop: '10px', fontStyle: 'italic', color: '#555' }}>
+        <p style={{ marginTop: '10px', fontStyle: 'italic' }}>
           Example: {current.example_sentence}
         </p>
       )}
-
       <br />
       <button onClick={handleNext} disabled={selected === null}>Next</button>
     </div>
